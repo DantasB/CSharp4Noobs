@@ -9,7 +9,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">Título do seu 4noobs</h2>
+  <h2 align="center">CSharp 4Noobs</h2>
 
   <h1 align="center"><img src="../.github/deno.svg" alt="Imagem da linguagem" width="120"></h1>
   
@@ -60,7 +60,7 @@ são **extremamente apreciadas**
 
 ## Autores
 
-- **Nome Completo** - _Especialidade_ - [@nickname](seutwitter)
+- **Ruan Carlos CS** - .Net - [@Logikoz](https://www.twitter.com/logikoz)
 
 ---
 
