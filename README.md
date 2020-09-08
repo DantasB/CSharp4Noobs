@@ -18,7 +18,7 @@
     <a href="#ROADMAP"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="lhttps://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
     <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
