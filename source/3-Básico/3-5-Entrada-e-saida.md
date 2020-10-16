@@ -12,26 +12,26 @@ Esta função, diferente de algumas linguagens, pode imprimir qualquer tipo, ou at
 ### Exemplos:
 
 ```
-   //Define uma variável string de nome aSerImpresso, com o valor ``vez.``
-   string aSerImpresso = "vez.";
+//Define uma variável string de nome aSerImpresso, com o valor ``vez.``
+string aSerImpresso = "vez.";
 
-   Console.WriteLine("Estou");
-   Console.WriteLine();
-   Console.WriteLine("imprimindo");
-   Console.WriteLine("isso!");
-   Console.WriteLine(1);
-   Console.WriteLine(aSerImpresso);
+Console.WriteLine("Estou");
+Console.WriteLine();
+Console.WriteLine("imprimindo");
+Console.WriteLine("isso!");
+Console.WriteLine(1);
+Console.WriteLine(aSerImpresso);
 ```
 
 Depois de compilado, o resultado será:
 
 ```
-	Estou
+Estou
 
-	Imprimindo
-	isso!
-	1
-	vez.
+Imprimindo
+isso!
+1
+vez.
 ```
 
 Além disso, é possível formatar valores dentro da string, passando assim multiplos parâmetros.
@@ -39,16 +39,16 @@ Além disso, é possível formatar valores dentro da string, passando assim multipl
 ### Exemplos:
 
 ```
-   string multiplicacao = "X";
-   int    valor         = 4;
+string multiplicacao = "X";
+int    valor         = 4;
 
-   Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);
+Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);
 ```
 
 Depois de compilado, o resultado será:
 
 ```
-	4 X 4 = 16
+4 X 4 = 16
 ```
 
 ## Console.ReadLine()
@@ -59,16 +59,16 @@ A função ``Console.ReadLine()`` para a execução do programa até o usuário escrev
 ### Exemplos:
 
 ```
-   Console.WriteLine("Qual o seu Nome?");
+Console.WriteLine("Qual o seu Nome?");
 
-   string aSerImpresso = Console.ReadLine();
+string aSerImpresso = Console.ReadLine();
 
-   Console.WriteLine("Olá, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
+Console.WriteLine("Olá, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
 ```
 
 Depois de compilado, considerando que o usuário entrou o seu nome, o resultado será:
 
 ```
-	Qual o seu Nome?
-	Olá, Bruno. Seja bem-vindo ao curso de CSharp.
+Qual o seu Nome?
+Olá, Bruno. Seja bem-vindo ao curso de CSharp.
 ```
