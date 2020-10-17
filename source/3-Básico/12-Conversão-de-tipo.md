@@ -73,5 +73,46 @@ Convert.ToString   | Converte um tipo para um String.
 Convert.ToUInt16   | Converte um tipo para um Int sem sinal.
 Convert.ToUInt32   | Converte um tipo para um Long sem sinal.
 Convert.ToUInt64   | Converte um tipo para um Big int sem sinal.
-float.Parse		   | Converte um tipo para um Float.
+float.Parse		   | Converte um string para um Float.
 .ToString		   | Converte um tipo para um String.
+
+
+### Exemplo:
+
+```
+using System;
+
+public class Program
+{
+	public static void Main()
+	{
+		double valor = 10.2;
+
+
+		//Nesta linha abaixo teremos um erro, pois não é possível converter o tipo float para double implicitamente.
+		//float resultado = valor; 
+
+		float resultado = float.Parse(Convert.ToString(valor)); //Enquanto esta linha é possível ser feita a conversão implicita
+
+		valor = resultado; //Esta linha também não dará erro. Veremos melhor abaixo.
+
+		Console.WriteLine(resultado);
+		Console.WriteLine(valor);
+
+		Convert.ToString(resultado);
+		
+		Console.WriteLine("Este é o resultado: " + resultado + ". ");
+		
+	}
+}
+```
+
+Onde a saída neste caso será:
+
+```
+10.2
+10.1999998092651
+Este é o resultado: 10.2.
+```
+
+Note que, ao converter o float para um tipo double, a precisão varia, logo, devemos ter cuidado com o ``Type Cast`` e prestar atenção nos tipos das nossas variáveis.
