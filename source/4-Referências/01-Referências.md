@@ -6,6 +6,8 @@
 
 - [Macoratti](http://www.macoratti.net/pageview.aspx?catid=18)
 
+- [Tutorialspoint - Em inglês](https://www.tutorialspoint.com/csharp/index.htm)
+
 
 ## Dicas de como configurar a interface de programação
 
