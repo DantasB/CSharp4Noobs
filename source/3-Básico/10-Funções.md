@@ -24,7 +24,7 @@ public class Program
 	
 	public void Main()
 	{
-        Console.WriteLine(somador(10,20));
+		Console.WriteLine(somador(10,20));
 	}	
 }
 ```
@@ -46,7 +46,7 @@ public class Program
 	
 	public static void Main()
 	{
-        Console.WriteLine(somador(10,20));
+		Console.WriteLine(somador(10,20));
 	}	
 }
 ```
