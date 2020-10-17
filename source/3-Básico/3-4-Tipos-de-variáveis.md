@@ -21,7 +21,7 @@ decimal       | -79228162514264337593543950335..79228162514264337593543950335
 double        | -1.79769313486232e308 ..1.79769313486232e308
 
 
-Além de possuir os tipos string, object e dynamic
+Além de possuir os tipos string, object, dynamic e var.
 
 ## Tipos Personalizados
 CSharp, por ser uma linguagem orientada à objeto, permite a criação de classes para serem utilizadas como objetos. Além disso, permitem, enum, structs e interface.
