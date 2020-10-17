@@ -44,8 +44,6 @@ vez.
 
 Além disso, é possível formatar valores dentro da string, passando assim multiplos parâmetros.
 
-### Exemplos:
-
 ```
 using System;
 
@@ -75,7 +73,7 @@ Depois de compilado, o resultado será:
 A função ``Console.ReadLine()`` para a execução do programa até o usuário escrever um argumento e retorna uma string com o que foi inputado.
 
 
-### Exemplos:
+### Exemplo:
 
 ```
 using System;
@@ -100,3 +98,12 @@ Depois de compilado, considerando que o usuário entrou o seu nome, o resultado s
 Qual o seu Nome?
 Olá, Bruno. Seja bem-vindo ao curso de CSharp.
 ```
+
+
+Existem também outros métodos menos utilizados. Não abordaremos neste curso, porém é interessante lerem a respeito:
+
+Função		      | O que faz
+-------------     | -------------
+Console.Read()    | Lê somente 1 char e retorna um ``int`` com o valor ASCII deste Char.
+Console.ReadKey() | Lê a tecla digitada pelo usuário e retorna um ``ConsoleKeyInfo`` que é um objeto, cujo parâmetro ``.key``, é o nome desta tecla.
+Console.Write()   | Uma outra forma de executar o WriteLine, porém com algumas peculiaridades.
