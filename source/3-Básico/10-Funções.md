@@ -1,4 +1,4 @@
-# 3.9 Funções
+# 3.10 Funções
 
 A criação de uma função é necessária por conta da modularidade do código, ou seja, é possível fazer com que haja nenhuma repetição de código desnecessária, e também é possível fazer com que outras partes do programa utilizem uma mesma função.
 Deste modo, tornamos o código mais limpo e mais fácil de ser entendido.
