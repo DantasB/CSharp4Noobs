@@ -1,7 +1,7 @@
 # 3.5 Entrada e Saída
 
-Para você observar alguns resultados em C# ou receber entradas de usuários, precisamos utilizar funções padrões (Console.WriteLine() e Console.ReadLine())
-Lembrando que, é necessário utilizar no início do programa : using System para que essas funções possam ser utilizadas.
+Para você observar alguns resultados em C# ou receber entradas de usuários, precisamos utilizar funções padrões (Console.WriteLine() e Console.ReadLine()).
+Lembrando que, é necessário incluir a biblioteca no início do programa ``using System`` para que estas funções possam ser utilizadas.
 
 ## Console.WriteLine()
 
