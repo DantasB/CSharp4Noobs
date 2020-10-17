@@ -29,10 +29,10 @@ public class Program
          double? num3 = new double?();
          double? num4 = 3.14157;
          
-         bool? boolval = new bool?();
+         bool? boolVal = new bool?();
 
          Console.WriteLine("Resultado das variáveis acima: {0}, {1}, {2}, {3}", num1, num2, num3, num4);
-         Console.WriteLine("Valor padrão de uma variável nullable: {0}", boolval);
+         Console.WriteLine("Valor padrão de uma variável nullable: {0}", boolVal);
 	}
 }
 ```

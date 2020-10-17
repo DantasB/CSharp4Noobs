@@ -5,7 +5,7 @@ Deste modo, tornamos o código mais limpo e mais fácil de ser entendido.
 
 Para construir uma função, é importante conhecermos a estrutura básica desta, onde podemos olhar abaixo:
 
-`` <modificador> <tipo-de-retorno> <nome-do-metodo> <lista-de-parâmetros> ``
+``<modificador> <tipo-de-retorno> <nome-do-metodo> <lista-de-parâmetros>``
 
 As funções, diferentes de outras linguagens C, não precisa ser definida necessariamente antes da função main (porém nada te limita a construir antes).
 

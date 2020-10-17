@@ -23,7 +23,7 @@ public class Program
 		double valor = 10;
 
 
-		//Nesta linha abaixo teremos um erro, pois não é possível converter o tipo float para double implicitamente.
+		//Nesta linha abaixo teriamos um erro, pois não é possível converter o tipo float para double implicitamente.
 		//float resultado = valor; 
 
 		float resultado = (float)valor; //Enquanto esta linha é possível ser feita a conversão implicita
@@ -87,10 +87,6 @@ public class Program
 	public static void Main()
 	{
 		double valor = 10.2;
-
-
-		//Nesta linha abaixo teremos um erro, pois não é possível converter o tipo float para double implicitamente.
-		//float resultado = valor; 
 
 		float resultado = float.Parse(Convert.ToString(valor)); //Enquanto esta linha é possível ser feita a conversão implicita
 

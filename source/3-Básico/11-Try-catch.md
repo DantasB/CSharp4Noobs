@@ -23,7 +23,7 @@ public class Program
 		int n = 0;
 		try
 		{
-			//Imprime 0
+			//Imprime 0.
 			Console.WriteLine(n);
 		}
 		catch
@@ -45,7 +45,7 @@ public class Program
 	{
 		if (s == null)
 		{
-			//Arremeça uma exceção (Argumento é nulo)
+			//Arremeça uma exceção (Argumento é nulo).
 			throw new ArgumentNullException();
 		}
 	}
@@ -55,7 +55,7 @@ public class Program
 		string s = null;
 		try
 		{	
-			//Processa uma string null
+			//Processa uma string null.
 			ProcessaString(s);
 		}
 		catch(Exception ex)

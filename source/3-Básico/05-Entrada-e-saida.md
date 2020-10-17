@@ -18,7 +18,7 @@ public class Program
 {
 	public static void Main()
 	{
-		//Define uma variável string de nome aSerImpresso, com o valor ``vez.``
+		//Define uma variável string de nome aSerImpresso, com o valor ``vez.``.
 		string aSerImpresso = "vez.";
 
 		Console.WriteLine("Estou");
@@ -51,10 +51,10 @@ public class Program
 {
 	public static void Main()
 	{
-		//define uma variável do tipo string de nome multiplicacao e atribui o valor "X"
+		//define uma variável do tipo string de nome multiplicacao e atribui o valor "X".
 		string multiplicacao = "X";
 
-		//define uma variável do tipo int de nome valor e atribui o valor 4
+		//define uma variável do tipo int de nome valor e atribui o valor 4.
 		int    valor         = 4;
 
 		Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);

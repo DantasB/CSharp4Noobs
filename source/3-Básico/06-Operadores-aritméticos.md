@@ -39,11 +39,11 @@ public class Program
 
         int secondNumber = 4; //variavel inteira de nome "secondNumber" recebe o valor de 4.
 
-        int sub = firstNumber - secondNumber; //variavel de nome "sub" recebe o valor da subtração entre as variaveis de nome "firstNumber" e "secondNumber"
+        int sub = firstNumber - secondNumber; //variavel de nome "sub" recebe o valor da subtração entre as variaveis de nome "firstNumber" e "secondNumber".
 
         string result = "O Resultado da subtração entre {0} e {1} será {2}";
 
-        //Substitui o valor da variável result pela string formatada com os valores de "firstNumber", "secondNumber" e "sub" respectivamente
+        //Substitui o valor da variável result pela string formatada com os valores de "firstNumber", "secondNumber" e "sub" respectivamente.
         result = String.Format(result, firstNumber, secondNumber, sub);
 
         Console.WriteLine(result);
@@ -63,10 +63,10 @@ public class Program
 	{
         int number = 5; //variavel inteira de nome "number" recebe o valor de 5.
 
-        int mult = 10 * number; //variável inteira de nome "mul" recebe o valor da multiplicação entre 10 e 5;
+        int mult = 10 * number; //variável inteira de nome "mul" recebe o valor da multiplicação entre 10 e 5.
 
         //Note que a maioria dos tipos em c# possui o método ToString() que faz o type cast desta variável para o tipo string
-        //permitindo o usuário concatenar este resultado com outra string
+        //permitindo o usuário concatenar este resultado com outra string.
         Console.WriteLine("O valor da multiplicacao 10 * 5 = " + mult.ToString());
 	}
 }
@@ -86,8 +86,6 @@ public class Program
 
         int division = 10 / number; //variável inteira de nome "division" recebe o valor da multiplicação entre 10 e 5;
 
-        //Note que a maioria dos tipos em c# possui o método ToString() que faz o type cast desta variável para o tipo string
-        //permitindo o usuário concatenar este resultado com outra string
         Console.WriteLine("O valor da divisão 10 / 5 = {0}", division);
 
         Console.WriteLine("O valor da divisão {0} / 2 = ", division, division/2);
@@ -116,9 +114,9 @@ public class Program
 {
 	public static void Main()
 	{
-        int mod = 10 % 5; //variável inteira de nome "mod" recebe o valor do resto da divisão entre 10 e 5;
+        int mod = 10 % 5; //variável inteira de nome "mod" recebe o valor do resto da divisão entre 10 e 5.
 
-        int mod2 = num1 % num2; //variavel de nome "mod2" recebe o valor do resto da divisão entre as variaveis de nome "num1" e "num2"
+        int mod2 = num1 % num2; //variavel de nome "mod2" recebe o valor do resto da divisão entre as variaveis de nome "num1" e "num2".
 
         Console.WriteLine("O resto da divisão 10 / 5 = {0}", mod2);
 	}
@@ -139,15 +137,15 @@ public class Program
         Console.WriteLine(x);
 
 		x = 10;
-		x = x - 1; //funciona com qualquer valor, nao somente 1
+		x = x - 1; //funciona com qualquer valor, nao somente 1.
         Console.WriteLine(x);
 
 		x = 10;
-		x -= 1; //funciona com qualquer valor nao somente 1
+		x -= 1; //funciona com qualquer valor nao somente 1.
         Console.WriteLine(x);
 
 		x = 10;
-		x--; //subtrai somente 1 da variavel após essa linha de código
+		x--; //subtrai somente 1 da variavel após essa linha de código.
         Console.WriteLine(x);
 
 		x = 10;
@@ -162,11 +160,11 @@ public class Program
         Console.WriteLine(x);
 
 		x = 10;
-		x = x + 1; //funciona com qualquer valor, nao somente 1
+		x = x + 1; //funciona com qualquer valor, nao somente 1.
         Console.WriteLine(x);
 
 		x = 10;
-		x += 1; //funciona com qualquer valor nao somente 1
+		x += 1; //funciona com qualquer valor nao somente 1.
         Console.WriteLine(x);
 
 		x = 10;

@@ -92,7 +92,7 @@ public class Program
 
 Este operador funciona da seguinte forma:
 
-``condição ? consequência : alternativa``
+``<condição> ? <consequência> : <alternativa>``
 
 Se a condição for true, a consequência ocorrerá. Caso contrário, a alternativa ocorrerá.
 

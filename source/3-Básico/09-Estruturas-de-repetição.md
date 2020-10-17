@@ -20,12 +20,12 @@ public class Program
     {
         int controle = 0;
 
-        //Enquanto controle for menor que 5
+        //Enquanto controle for menor que 5.
         while(controle < 5)
         {
             Console.WriteLine(controle);
 
-            //Soma 1 ao controle
+            //Soma 1 ao controle.
             controle++;
         }
     }
@@ -57,7 +57,7 @@ public class Program
     {
         int controle = 0;
 
-        //Faça
+        //Faça.
         do
         {
             Console.WriteLine(controle);
@@ -65,7 +65,7 @@ public class Program
             //Soma 1 ao controle
             controle++;
 
-        }while(controle < 5); //Enquanto controle for menor que 5
+        }while(controle < 5); //Enquanto controle for menor que 5.
     }
 }
 ```
@@ -96,7 +96,7 @@ public class Program
 {
     public static void Main()
     {
-        //Para cada i, enquanto i for menor que 5, soma 1 ao i após o término do primeiro passo
+        //Para cada i, enquanto i for menor que 5, soma 1 ao i após o término do primeiro passo.
         for(int i = 0; i<5; i++)
         {
             Console.WriteLine(i);
@@ -131,7 +131,7 @@ public class Program
     {
         string valor = "sucesso";
 
-        //Para cada caractere na string valor, imprime esse caractere
+        //Para cada caractere na string valor, imprime esse caractere.
         foreach(char caractere in valor)
         {
             Console.WriteLine(caractere);

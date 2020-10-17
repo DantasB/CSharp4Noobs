@@ -1,7 +1,7 @@
 # 3.4 Tipos de Variáveis
 
 ## Tipos Padrões
-Como toda linguagem de programação, o c# possui alguns tipos de variáveis padrões (tipos internos), onde estes podem ser vistos abaixo:
+Como toda linguagem de programação, o C# possui alguns tipos de variáveis padrões (tipos internos), onde estes podem ser vistos abaixo:
 
 
 Palavra chave | Intervalo
