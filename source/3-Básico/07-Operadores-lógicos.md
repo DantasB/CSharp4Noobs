@@ -2,15 +2,17 @@
 Os operadores lógicos são utilizados quando é necessário usar duas ou mais condições dentro da mesma instrução if para que seja tomada uma única decisão cujo resultado será verdadeiro ou falso.
 
 
-Operadores Lógicos | Significado
--------------      | -------------
-&&		           | and condicional
-!                  | not
-||                 | or condicional
-&                  | and bit a bit
-|                  | or bit a bit
-^                  | xor bit a bit
-~                  | complement bit a bit
+| Operadores Lógicos | Significado           |
+|--------------------|-----------------------|
+| &&                 | and condicional       |
+| !                  | not                   |
+| \|\|               | or condicional        |
+| &                  | and bit a bit         |
+| \|                 | or bit a bit          |
+| ^                  | xor bit a bit         |
+| ~                  | complemento bit a bit |
+| <<                 | shift para a esquerda |
+| >>                 | shift para a direita  |
 
 A diferença das condições condicionais para as bit a bit são as seguites:
 
@@ -18,16 +20,15 @@ A diferença das condições condicionais para as bit a bit são as seguites:
 - Bit a bit: Testa ambos os lados todas as vezes.
 
 
-Operadores de Comparação | Significado
--------------            | -------------
->		                 | maior que
-<                        | menor que
->=                       | maior ou igual
-<=                       | menor ou igual
-==                       | igual
-!=                       | não igual (diferente)
-<<                       | left shift  
->>                       | right shift 
+| Operadores de Comparação | Significado           |
+|--------------------------|-----------------------|
+| >                        | maior que             |
+| <                        | menor que             |
+| >=                       | maior ou igual        |
+| <=                       | menor ou igual        |
+| ==                       | igual                 |
+| !=                       | não igual (diferente) |
+
 
 ## Exemplos:
 
