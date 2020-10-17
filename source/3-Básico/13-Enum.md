@@ -1,4 +1,4 @@
-# Enum
+# 3.13 Enum
 
 Uma enumeração é um conjunto de inteiros constantes nomeados. Um tipo ``enumerate`` é declarado quando utilizamos ``enum``
 
