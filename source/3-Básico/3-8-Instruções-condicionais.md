@@ -5,10 +5,10 @@ As instruções condicionais são utilizados quando é trazer lógica de maneira mais
 É importante frizar que, em C# existem muitas maneiras de utilizar estas instruções e, abaixo abordaremos algumas delas:
 
 ##if-else
-
 Uma instrução if identifica qual instrução executar com base no valor de uma expressão booleana.
 
 É possível utilizar simplesmente uma função if-else sem mais nem menos.
+
 ### Exemplo:
 
 ```
