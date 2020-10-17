@@ -4,7 +4,7 @@ As instruções condicionais são utilizados quando é trazer lógica de maneira mais
 
 É importante frizar que, em C# existem muitas maneiras de utilizar estas instruções e, abaixo abordaremos algumas delas:
 
-##if-else
+## if-else
 Uma instrução if identifica qual instrução executar com base no valor de uma expressão booleana.
 
 É possível utilizar simplesmente uma função if-else sem mais nem menos.
@@ -113,18 +113,18 @@ public class Program
 }
 ```
 
-## switch-case:
+## Switch-Case:
 
-Uma instrução switch-case identifica qual instrução executar com base no valor de uma expressão de qualquer tipo.
+Uma instrução Switch-Case identifica qual instrução executar com base no valor de uma expressão de qualquer tipo.
 
-No geral o switch-case é utilizado como alternativa ao if-else, muitas vezes por organização de código quando há muitos casos aninhados.
+No geral o Switch-Case é utilizado como alternativa ao if-else, muitas vezes por organização de código quando há muitos casos aninhados.
 
 
 ### Estrutura geral de um switch-case:
 
-- switch(valor): A variável valor será responsável por definir qual case será acessado.
-- case 1: caso a variável valor seja igual a 1, entraremos neste case.
-- default: caso não haja nenhum case referente à variável valor, este caso será executado.
+- Switch(valor): A variável valor será responsável por definir qual case será acessado.
+- Case 1: caso a variável valor seja igual a 1, entraremos neste case.
+- Default: caso não haja nenhum case referente à variável valor, este caso será executado.
 
 Note também que, ao final de cada case, é necessário haver ``return ou break``.
 
@@ -157,4 +157,3 @@ public class Program
 	}
 }
 ```
-
