@@ -10,7 +10,7 @@ Operadores Lógicos | Significado
 &                  | and bit a bit
 |                  | or bit a bit
 ^                  | xor bit a bit
-~                  | bitwise bit a bit
+~                  | complement bit a bit
 
 A diferença das condições condicionais para as bit a bit são as seguites:
 
@@ -26,8 +26,8 @@ Operadores de Comparação | Significado
 <=                       | menor ou igual
 ==                       | igual
 !=                       | não igual (diferente)
-<<                       | bitwise para a esquerda  
->>                       | bitwise para a direita 
+<<                       | left shift  
+>>                       | right shift 
 
 ## Exemplos:
 
