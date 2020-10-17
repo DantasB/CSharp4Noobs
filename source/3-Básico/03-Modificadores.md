@@ -2,7 +2,7 @@
 
 Modificadores, também conhecidos como modificadores de acesso, são necessários para definir a visibilidade desta variável, função ou classe, ou seja, como outras classes verão este objeto.
 
-Como dito anteriormente, a variável não precisa ser declarada com modificador de acesso, contudo, internamente, o C# define um modificador chamado *private*.
+Como dito anteriormente, a variável não precisa ser declarada com modificador de acesso, contudo, internamente, o C# define um modificador chamado ``private``.
 
 Abaixo vocês podem observar melhor a lista de Modificadores existentes no C#:
 
