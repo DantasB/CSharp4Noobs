@@ -12,15 +12,23 @@ Esta função, diferente de algumas linguagens, pode imprimir qualquer tipo, ou at
 ### Exemplos:
 
 ```
-//Define uma variável string de nome aSerImpresso, com o valor ``vez.``
-string aSerImpresso = "vez.";
+using System;
 
-Console.WriteLine("Estou");
-Console.WriteLine();
-Console.WriteLine("imprimindo");
-Console.WriteLine("isso!");
-Console.WriteLine(1);
-Console.WriteLine(aSerImpresso);
+public class Program
+{
+	public static void Main()
+	{
+		//Define uma variável string de nome aSerImpresso, com o valor ``vez.``
+		string aSerImpresso = "vez.";
+
+		Console.WriteLine("Estou");
+		Console.WriteLine();
+		Console.WriteLine("imprimindo");
+		Console.WriteLine("isso!");
+		Console.WriteLine(1);
+		Console.WriteLine(aSerImpresso);
+	}
+}
 ```
 
 Depois de compilado, o resultado será:
@@ -39,10 +47,21 @@ Além disso, é possível formatar valores dentro da string, passando assim multipl
 ### Exemplos:
 
 ```
-string multiplicacao = "X";
-int    valor         = 4;
+using System;
 
-Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);
+public class Program
+{
+	public static void Main()
+	{
+		//define uma variável do tipo string de nome multiplicacao e atribui o valor "X"
+		string multiplicacao = "X";
+
+		//define uma variável do tipo int de nome valor e atribui o valor 4
+		int    valor         = 4;
+
+		Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);
+	}
+}
 ```
 
 Depois de compilado, o resultado será:
@@ -59,11 +78,20 @@ A função ``Console.ReadLine()`` para a execução do programa até o usuário escrev
 ### Exemplos:
 
 ```
-Console.WriteLine("Qual o seu Nome?");
+using System;
 
-string aSerImpresso = Console.ReadLine();
+public class Program
+{
+	public static void Main()
+	{
+		Console.WriteLine("Qual o seu Nome?");
 
-Console.WriteLine("Olá, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
+		string aSerImpresso = Console.ReadLine();
+
+		Console.WriteLine("Olá, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
+	}
+}
+
 ```
 
 Depois de compilado, considerando que o usuário entrou o seu nome, o resultado será:
