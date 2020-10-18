@@ -60,8 +60,8 @@ são **extremamente apreciadas**
 
 ## Autores
 
+- **Bruno Dantas de Paiva** - .Net - [@BDantas](https://dantasb.github.io/)
 - **Ruan Carlos CS** - .Net - [@Logikoz](https://www.twitter.com/logikoz)
-
 ---
 
 <p align="center">
