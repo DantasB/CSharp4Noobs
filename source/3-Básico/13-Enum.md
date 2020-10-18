@@ -49,3 +49,20 @@ Domingo: 0
 Sábado: 6
 ```
 
+Uma observação interessante, é que, para evitar possíveis problemas de ordem do enum, é possível atribuir valores aos enums.
+
+Podemos observar melhor abaixo:
+
+```
+enum Dias { 
+	Dom = 0,
+	Seg = 1,
+	Ter = 2,
+	Qui = 4,
+	Qua = 3,
+	Sex = 5,
+	Sab = 6 
+};
+```
+
+Notem que mesmo invertendo a ordem de Quinta com Quarta, como os valores foram definidos na ordem correta, não teremos problemas na lógica.
