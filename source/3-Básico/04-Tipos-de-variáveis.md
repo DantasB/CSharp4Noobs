@@ -1,7 +1,7 @@
-# 3.4 Tipos de Vari�veis
+# 3.4 Tipos de Variáveis
 
-## Tipos Padr�es
-Como toda linguagem de programa��o, o C# possui alguns tipos de vari�veis padr�es (tipos internos), onde estes podem ser vistos abaixo:
+## Tipos Padrões
+Como toda linguagem de programação, o C# possui alguns tipos de variáveis padrões (tipos internos), onde estes podem ser vistos abaixo:
 
 
 Palavra chave | Intervalo
@@ -20,9 +20,34 @@ char		  | 	U+0000 .. U+ffff
 decimal       | -79228162514264337593543950335..79228162514264337593543950335
 double        | -1.79769313486232e308 ..1.79769313486232e308
 
+Além de possuir os tipos string e object.
 
-Al�m de possuir os tipos string, object, dynamic e var.
+Uma coisa que vale ressaltar, é sobre o ``var`` e também o ``dynamic`` que podem ser facilmente mal entendidos.
+
+### var
+Essa paravra-chave do C# é utilizada para 2 contextos.
+1. Puramente sintático - ou seja, quando voce utiliza **var** no seu código, o tipo atribuido é interpretado pelo compilador pelo resultado da expressao de atribuiçao, ex:
+```csharp
+var @int = 10; // isso é intendido pelo compilador como um numero inteiro (int)
+var @double = 10.0 // este é visto como o tipo double, ja que nao foi explicitado o tipo flutuante (D, d, m, M, f, F) repectivamente double, decimal e float
+```
+
+2. Tipos anonimos - isso ocorre quando o resultado da expressao de atribuiçao nao possui um tipo explicitado, e o compilador é o responsavel por gerar um tipo em tempo de compilaçao, ex:
+```csharp
+var value = new { IsValue = true };
+
+//um exemplo de como é para compilador:
+<T>x__1 a = new <T>x__1 { IsValue = true };
+```
+
+### dynamic
+Essa palavra-chave, permite que voce acesse um metodo/prop/campo sem que pricese saber o seu tipo.
+O termo tecnico disse é dado por [Late Binding](https://en.wikipedia.org/wiki/Late_binding#Late_binding_in_.NET).
+
+Uma coisa interessante sobre o **dynamic** é que caso durante o acesso do tipo, caso ele nao encontre, irá disparar um erro em tempo de execuçao, a famosa, Exception!
+
+**Uma coisa muito importante, é que o [var] e nem o [dynamic] sao tipos**
 
 ## Tipos Personalizados
-CSharp, por ser uma linguagem orientada � objeto, permite a cria��o de classes para serem utilizadas como objetos. Al�m disso, permitem, enum, structs e interface.
+CSharp, por ser uma linguagem orientada à objeto, permite a criação de classes para serem utilizadas como objetos. Além disso, permitem, enum, structs e interface.
 
