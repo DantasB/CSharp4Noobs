@@ -28,11 +28,11 @@ Uma coisa que vale ressaltar, é sobre o ``var`` e também o ``dynamic`` que pod
 Essa paravra-chave do C# é utilizada para 2 contextos.
 1. Puramente sintático - ou seja, quando voce utiliza **var** no seu código, o tipo atribuido é interpretado pelo compilador pelo resultado da expressao de atribuiçao, ex:
 ```csharp
-var @int = 10; // isso é intendido pelo compilador como um numero inteiro (int)
+var @int = 10; // isso é entendido pelo compilador como um numero inteiro (int)
 var @double = 10.0 // este é visto como o tipo double, ja que nao foi explicitado o tipo flutuante (D, d, m, M, f, F) repectivamente double, decimal e float
 ```
 
-2. Tipos anonimos - isso ocorre quando o resultado da expressao de atribuiçao nao possui um tipo explicitado, e o compilador é o responsavel por gerar um tipo em tempo de compilaçao, ex:
+2. Tipos anonimos - isso ocorre quando o resultado da expressao de atribuiçao não possui um tipo explicitado, e o compilador é o responsavel por gerar um tipo em tempo de compilação, ex:
 ```csharp
 var value = new { IsValue = true };
 
@@ -41,10 +41,10 @@ var value = new { IsValue = true };
 ```
 
 ### dynamic
-Essa palavra-chave, permite que voce acesse um metodo/prop/campo sem que pricese saber o seu tipo.
-O termo tecnico disse é dado por [Late Binding](https://en.wikipedia.org/wiki/Late_binding#Late_binding_in_.NET).
+Essa palavra-chave, permite que voce acesse um metodo/prop/campo sem que precise saber o seu tipo.
+O termo tecnico disso é dado por [Late Binding](https://en.wikipedia.org/wiki/Late_binding#Late_binding_in_.NET).
 
-Uma coisa interessante sobre o **dynamic** é que caso durante o acesso do tipo, caso ele nao encontre, irá disparar um erro em tempo de execuçao, a famosa, Exception!
+Uma coisa interessante sobre o **dynamic** é que caso durante o acesso do tipo, caso ele não encontre, irá disparar um erro em tempo de execuçao, a famosa, Exception!
 
 **Uma coisa muito importante, é que o [var] e nem o [dynamic] sao tipos**
 
