@@ -27,22 +27,37 @@
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-Explique um pouco sobre o 4noobs que está desenvolvendo.
+A ideia deste repositório é ensinar ao leitor os conceitos e aplicaçoes basicas da linguagem de programaçao C#.
 
 <!-- ROADMAP OF PROJECT -->
 
 ## ROADMAP
 
-- [Conteúdo 1](link-primeira-parte)
-- [Conteúdo 2](link-segunda-parte)
-- [Conteúdo 3](link-terceira-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  	- [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
-- [Conteúdo 4](link-quarta-parte)
-- [Conteúdo 5](link-quinta-parte)
-  - [Sub-conteúdo](link-sub-conteudo)
-  - [Sub-conteúdo](link-sub-conteudo)
+- [1 - Intrudução](/source/1-Introdução)
+  - [1.1 - Boas-vindas](/source/1-Introdução/1-Boas-vindas.md)
+- [2 - Ambiente](/source/2-Ambiente)
+  - [2.1 - Editores](/source/2-Ambiente/1-Editores.md)
+  - [2.2 - Sistemas Operacionais](/source/2-Ambiente/2-Sistemas-Operacionais.md)
+  - [2.3 - Windows](/source/2-Ambiente/3-Windows.md)
+  - [2.4 - Linux](/source/2-Ambiente/4-Linux.md)
+  - [2.5 - Online](/source/2-Ambiente/5-Online.md)
+- [3 - Básico](/source/3-Básico)
+  - [3.1 - Declaração de variáveis](/source/3-Básico/01-Declaração-de-variáveis.md)
+  - [3.2 - Básico](/source/3-Básico/02-Tipos-de-variáveis.md)
+  - [3.3 - Básico](/source/3-Básico/03-Entrada-e-saida.md)
+  - [3.4 - Básico](/source/3-Básico/04-Operadores-aritméticos.md) 
+  - [3.5 - Básico](/source/3-Básico/05-Operadores-lógicos.md) 
+  - [3.6 - Básico](/source/3-Básico/06-Instruções-condicionais.md) 
+  - [3.7 - Básico](/source/3-Básico/07-Estruturas-de-repetição.md) 
+  - [3.8 - Básico](/source/3-Básico/08-Funções.md) 
+  - [3.9 - Básico](/source/3-Básico/09-Conversão-de-tipo.md) 
+  - [3.10 - Básico](/source/3-Básico/10-Enum.md) 
+  - [3.11 - Básico](/source/3-Básico/11-Nullable.md) 
+  - [3.12 - Básico](/source/3-Básico/12-Arrays.md) 
+  - [3.13 - Básico](/source/3-Básico/13-Namespace.md) 
+- [Intermediário](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
+- [Avançado](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
+- [4 - Referências](/source/4-Referências)
   
   
 <!-- CONTRIBUTING -->
@@ -61,8 +76,9 @@ são **extremamente apreciadas**
 ## Autores
 
 - **Bruno Dantas de Paiva** - .Net - [@BDantas](https://dantasb.github.io/)
-- **Ruan Carlos CS** - .Net - [@Logikoz](https://www.twitter.com/logikoz)
----
+
+## Colaboradores
+- **Ruan Carlos CS** - .Net - [@Logikoz](https://logikoz.net)
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
