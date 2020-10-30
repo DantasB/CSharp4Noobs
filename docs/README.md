@@ -1,0 +1,28 @@
+# ROADMAP
+
+- [1 - Intrudução](/docs/1-Introdução)
+  - [1.1 - Boas-vindas](/docs/1-Introdução/1-Boas-vindas.md)
+- [2 - Ambiente](/docs/2-Ambiente)
+  - [2.1 - Editores](/docs/2-Ambiente/1-Editores.md)
+  - [2.2 - Sistemas Operacionais](/docs/2-Ambiente/2-Sistemas-Operacionais.md)
+  - [2.3 - Windows](/docs/2-Ambiente/3-Windows.md)
+  - [2.4 - Linux](/docs/2-Ambiente/4-Linux.md)
+  - [2.5 - Online](/docs/2-Ambiente/5-Online.md)
+- [3 - Básico](/docs/3-Básico)
+  - [3.1 - Declaração de variáveis](/docs/3-Básico/01-Declaração-de-variáveis.md)
+  - [3.2 - Tipos de variáveis](/docs/3-Básico/02-Tipos-de-variáveis.md)
+  - [3.3 - Entrada e saida](/docs/3-Básico/03-Entrada-e-saida.md)
+  - [3.4 - Operadores aritméticos](/docs/3-Básico/04-Operadores-aritméticos.md) 
+  - [3.5 - Operadores lógicos](/docs/3-Básico/05-Operadores-lógicos.md) 
+  - [3.6 - Instruções condicionais](/docs/3-Básico/06-Instruções-condicionais.md) 
+  - [3.7 - Estruturas de repetição](/docs/3-Básico/07-Estruturas-de-repetição.md) 
+  - [3.8 - Funções](/docs/3-Básico/08-Funções.md) 
+  - [3.9 - Conversoes de tipos](/docs/3-Básico/09-ty-catch.md) 
+  - [3.10 - Conversoes de tipos](/docs/3-Básico/09-Conversão-de-tipo.md) 
+  - [3.11 - Enum](/docs/3-Básico/10-Enum.md) 
+  - [3.12 - Tipos anuláveis](/docs/3-Básico/11-Nullable.md) 
+  - [3.13 - Arrays](/docs/3-Básico/12-Arrays.md) 
+  - [3.14 - Namespaces](/docs/3-Básico/13-Namespace.md) 
+- [Intermediário](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
+- [Avançado](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
+- [4 - Referências](/docs/4-Referências)
