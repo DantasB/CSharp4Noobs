@@ -40,13 +40,13 @@ var value = new { IsValue = true };
 <T>x__1 a = new <T>x__1 { IsValue = true };
 ```
 
+**Uma coisa muito importante, é que o [var] não é um tipo!**
+
 ### dynamic
 Essa palavra-chave, permite que voce acesse um metodo/prop/campo sem que precise saber o seu tipo.
 O termo tecnico disso é dado por [Late Binding](https://en.wikipedia.org/wiki/Late_binding#Late_binding_in_.NET).
 
 Uma coisa interessante sobre o **dynamic** é que caso durante o acesso do tipo, caso ele não encontre, irá disparar um erro em tempo de execuçao, a famosa, Exception!
-
-**Uma coisa muito importante, é que o [var] e nem o [dynamic] sao tipos**
 
 ## Tipos Personalizados
 CSharp, por ser uma linguagem orientada à objeto, permite a criação de classes para serem utilizadas como objetos. Além disso, permitem, enum, structs e interface.

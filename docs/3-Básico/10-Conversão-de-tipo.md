@@ -6,109 +6,49 @@ Aquela maneira que vimos não é a única. Veremos abaixo outras maneiras de faz
 
 é importante frizar, que esta linguagem possui duas maneiras genéricas:
 
-## Conversão Implícita
+## [Conversão Implícita](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/language-specification/conversions#implicit-conversions)
 
-Este tipo de conversão, permite que o usuário converta o tipo de variável somente passando um ``(novo tipo)`` antes desta variável ou não
-Veremos melhor abaixo:
+As conversoes implicitas, como o proprio nome diz, ocorrem quando nao é explicitado (fica evidente) o tipo da conversão.
 
-### Exemplo:
-
+### Boxing
+Esse tipo de conversão ocorre quando o resultado expressão é atribuido a um tipo ``object``.
 ```csharp
-using System;
+//<= C# 8
+Pessoa p = new Pessoa();
+//C# 9
+//Pessoa p = new();
 
-public class Program
-{
-	public static void Main()
-	{
-		double valor = 10;
-
-
-		//Nesta linha abaixo teriamos um erro, pois não é possível converter o tipo float para double implicitamente.
-		//float resultado = valor; 
-
-		float resultado = (float)valor; //Enquanto esta linha é possível ser feita a conversão implicita
-
-		valor = resultado; //Esta linha também não ocorrerá erro. Veremos melhor abaixo.
-	}
-}
+object obj = p; //Boxing
 ```
 
 Note que não é possível fazer a conversão implícita para todos os tipos. Vamos observar um pouco melhor abaixo:
 
 ```
 //Ordem de containerização:
-
-byte > short > char > int > long > float > double
-
-//Byte contém todos.
-//Double não contém nenhum tipo.
+De sbyte -> short, int, long, float, double, decimal.
+De byte -> short, ushort, int, uint, long, ulong, float, double, decimal.
+De short -> int, long, float, double, decimal.
+De ushort -> int, uint, long, ulong, float, double, decimal.
+De int -> long, float, double, decimal.
+De uint -> long, ulong, float, double, decimal.
+De long -> float, double, decimal.
+De ulong -> float, double, decimal.
+De char -> ushort, int, uint, long, ulong, float, double, decimal.
+De float -> double.
 ```
 
-Basicamente, esta sequencia diz que o todos os tipos são ``conteinerizados`` pelo tipo ``byte``, logo todo tipo pode ser convertido para byte, sem a adição do ``(tipo)`` antes da declaração da variável.
-
-Contudo, não é possível converter, por exemplo, o tipo double para float sem a adição do ``(tipo)``, pois, pelo fato do float conter o double, essa conversão implicita não existe.
-
-Logo, devemos ter cuidado com esse tipo de conversão, a fim de evitar erros com a precisão das nossas variáveis.
+### Implicit Operator <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
 
 ## Conversão Explícita 
 
-Diferente do tipo de conversão anterior, este método consiste em chamar uma função ``Parse`` ou ``To"Tipo"`` para fazer a conversão da variável em questão.
+Sao todas as implícitas, e outras conversoes onde ficam explicitados os tipos da conversão.
 
-Abaixo veremos alguns exemplos, contudo, não é necessário você gravar todos estes métodos, muitos deles seráo "gravados" com o tempo.
+### Operador Cast (T)
 
-Função			   | O que faz
--------------	   | -------------
-Convert.ToBoolean  | Converte qualquer número para true (exceto char ou string) e retorna false para 0.
-Convert.ToByte     | Converte um tipo para um Byte.
-Convert.ToChar     | Converte um tipo para um Char.
-Convert.ToDateTime | Converte um tipo para um DateTime (Estrutura que representa Data).
-Convert.ToDecimal  | Converte um tipo para um Decimal.
-Convert.ToDouble   | Converte um tipo para um Double.
-Convert.ToInt16    | Converte um tipo para um Int16.
-Convert.ToInt32    | Converte um tipo para um Int32.
-Convert.ToInt64    | Converte um tipo para um Int64.
-Convert.ToSByte    | Converte um tipo para um Byte com sinal.
-Convert.ToSingle   | Converte um tipo para um Small float.
-Convert.ToString   | Converte um tipo para um String.
-Convert.ToUInt16   | Converte um tipo para um Int sem sinal.
-Convert.ToUInt32   | Converte um tipo para um Long sem sinal.
-Convert.ToUInt64   | Converte um tipo para um Big int sem sinal.
-float.Parse		   | Converte um string para um Float.
-.ToString		   | Converte um tipo para um String.
+#### Unboxing
 
+### Operador AS
 
-### Exemplo:
+Falar sobre a diferença do Cast, nao dispara exception...
 
-```csharp
-using System;
-
-public class Program
-{
-	public static void Main()
-	{
-		double valor = 10.2;
-
-		float resultado = float.Parse(Convert.ToString(valor)); //Enquanto esta linha é possível ser feita a conversão implicita
-
-		valor = resultado; //Esta linha também não ocorrerá erro. Veremos melhor abaixo.
-
-		Console.WriteLine(resultado);
-		Console.WriteLine(valor);
-
-		Convert.ToString(resultado);
-		
-		Console.WriteLine("Este é o resultado: " + resultado + ". ");
-		
-	}
-}
-```
-
-Onde a saída neste caso será:
-
-```
-10.2
-10.1999998092651
-Este é o resultado: 10.2.
-```
-
-Note que, ao converter o float para um tipo double, a precisão varia, logo, devemos ter cuidado com o ``Type Cast`` e prestar atenção nos tipos das nossas variáveis.
+### Explicit Operator <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
