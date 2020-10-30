@@ -42,12 +42,17 @@ são **extremamente apreciadas**
 4. Realize o Push no Branch (`git push origin feature/featureBraba`)
 5. Abra um Pull Request
 
-## Autores
+## Autor
 
 - **Bruno Dantas de Paiva** - .Net - [@BDantas](https://dantasb.github.io/)
 
 ## Colaboradores
-- **Ruan Carlos CS** - .Net - [@Logikoz](https://logikoz.net)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/DantasB"><img style="border-radius: 50%;" src="https://avatars0.githubusercontent.com/u/15825133?s=400&u=01f980f0e5eefce5e8f4721489b732db2cb726d7&v=4" width="100px;" alt=""/><br /><sub><b>Bruno Dantas de Paiva</b></sub></a><br />
+    <td align="center"><a href="https://github.com/Logikoz"><img style="border-radius: 50%;" src="https://avatars3.githubusercontent.com/u/37851168?s=460&u=ae8b355f816ba6e875bd07d2562a1182fad3b6a6&v=4" width="100px;" alt=""/><br /><sub><b>Ruan Carlos CS (Logikoz)</b></sub></a><br />
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://github.com/he4rt/4noobs" target="_blank">
