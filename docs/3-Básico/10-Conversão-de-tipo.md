@@ -1,19 +1,19 @@
-# 3.10 Convers�o de Tipo (Typecast)
+# 3.10 Conversão de Tipo (Typecast)
 
-Como pudemos observar em alguns exemplos anteriores, � poss�vel fazer a convers�o de um tipo (int, string, bool) para outro tipo em C#.
+Como pudemos observar em alguns exemplos anteriores, é possível fazer a conversão de um tipo (int, string, bool) para outro tipo em C#.
 
-Aquela maneira que vimos n�o � a �nica. Veremos abaixo outras maneiras de fazer o ``Typecast``
+Aquela maneira que vimos não é a única. Veremos abaixo outras maneiras de fazer o ``Typecast``
 
-� importante frizar, que esta linguagem possui duas maneiras gen�ricas:
+é importante frizar, que esta linguagem possui duas maneiras genéricas:
 
-## Convers�o Impl�cita
+## Conversão Implícita
 
-Este tipo de convers�o, permite que o usu�rio converta o tipo de vari�vel somente passando um ``(novo tipo)`` antes desta vari�vel ou n�o
+Este tipo de conversão, permite que o usuário converta o tipo de variável somente passando um ``(novo tipo)`` antes desta variável ou não
 Veremos melhor abaixo:
 
 ### Exemplo:
 
-```
+```csharp
 using System;
 
 public class Program
@@ -23,42 +23,42 @@ public class Program
 		double valor = 10;
 
 
-		//Nesta linha abaixo teriamos um erro, pois n�o � poss�vel converter o tipo float para double implicitamente.
+		//Nesta linha abaixo teriamos um erro, pois não é possível converter o tipo float para double implicitamente.
 		//float resultado = valor; 
 
-		float resultado = (float)valor; //Enquanto esta linha � poss�vel ser feita a convers�o implicita
+		float resultado = (float)valor; //Enquanto esta linha é possível ser feita a conversão implicita
 
-		valor = resultado; //Esta linha tamb�m n�o dar� erro. Veremos melhor abaixo.
+		valor = resultado; //Esta linha também não ocorrerá erro. Veremos melhor abaixo.
 	}
 }
 ```
 
-Note que n�o � poss�vel fazer a convers�o impl�cita para todos os tipos. Vamos observar um pouco melhor abaixo:
+Note que não é possível fazer a conversão implícita para todos os tipos. Vamos observar um pouco melhor abaixo:
 
 ```
-//Ordem de containeriza��o:
+//Ordem de containerização:
 
 byte > short > char > int > long > float > double
 
-//Byte cont�m todos.
-//Double n�o cont�m nenhum tipo.
+//Byte contém todos.
+//Double não contém nenhum tipo.
 ```
 
-Basicamente, esta sequencia diz que o todos os tipos s�o ``conteinerizados`` pelo tipo ``byte``, logo todo tipo pode ser convertido para byte, sem a adi��o do ``(tipo)`` antes da declara��o da vari�vel.
+Basicamente, esta sequencia diz que o todos os tipos são ``conteinerizados`` pelo tipo ``byte``, logo todo tipo pode ser convertido para byte, sem a adição do ``(tipo)`` antes da declaração da variável.
 
-Contudo, n�o � poss�vel converter, por exemplo, o tipo double para float sem a adi��o do ``(tipo)``, pois, pelo fato do float conter o double, essa convers�o implicita n�o existe.
+Contudo, não é possível converter, por exemplo, o tipo double para float sem a adição do ``(tipo)``, pois, pelo fato do float conter o double, essa conversão implicita não existe.
 
-Logo, devemos ter cuidado com esse tipo de convers�o, a fim de evitar erros com a precis�o das nossas vari�veis.
+Logo, devemos ter cuidado com esse tipo de conversão, a fim de evitar erros com a precisão das nossas variáveis.
 
-## Convers�o Expl�cita 
+## Conversão Explícita 
 
-Diferente do tipo de convers�o anterior, este m�todo consiste em chamar uma fun��o ``Parse`` ou ``To"Tipo"`` para fazer a convers�o da vari�vel em quest�o.
+Diferente do tipo de conversão anterior, este método consiste em chamar uma função ``Parse`` ou ``To"Tipo"`` para fazer a conversão da variável em questão.
 
-Abaixo veremos alguns exemplos, contudo, n�o � necess�rio voc� gravar todos estes m�todos, muitos deles ser�o "gravados" com o tempo.
+Abaixo veremos alguns exemplos, contudo, não é necessário você gravar todos estes métodos, muitos deles seráo "gravados" com o tempo.
 
-Fun��o			   | O que faz
+Função			   | O que faz
 -------------	   | -------------
-Convert.ToBoolean  | Converte qualquer n�mero para true (exceto char ou string) e retorna false para 0.
+Convert.ToBoolean  | Converte qualquer número para true (exceto char ou string) e retorna false para 0.
 Convert.ToByte     | Converte um tipo para um Byte.
 Convert.ToChar     | Converte um tipo para um Char.
 Convert.ToDateTime | Converte um tipo para um DateTime (Estrutura que representa Data).
@@ -79,7 +79,7 @@ float.Parse		   | Converte um string para um Float.
 
 ### Exemplo:
 
-```
+```csharp
 using System;
 
 public class Program
@@ -88,27 +88,27 @@ public class Program
 	{
 		double valor = 10.2;
 
-		float resultado = float.Parse(Convert.ToString(valor)); //Enquanto esta linha � poss�vel ser feita a convers�o implicita
+		float resultado = float.Parse(Convert.ToString(valor)); //Enquanto esta linha é possível ser feita a conversão implicita
 
-		valor = resultado; //Esta linha tamb�m n�o dar� erro. Veremos melhor abaixo.
+		valor = resultado; //Esta linha também não ocorrerá erro. Veremos melhor abaixo.
 
 		Console.WriteLine(resultado);
 		Console.WriteLine(valor);
 
 		Convert.ToString(resultado);
 		
-		Console.WriteLine("Este � o resultado: " + resultado + ". ");
+		Console.WriteLine("Este é o resultado: " + resultado + ". ");
 		
 	}
 }
 ```
 
-Onde a sa�da neste caso ser�:
+Onde a saída neste caso será:
 
 ```
 10.2
 10.1999998092651
-Este � o resultado: 10.2.
+Este é o resultado: 10.2.
 ```
 
-Note que, ao converter o float para um tipo double, a precis�o varia, logo, devemos ter cuidado com o ``Type Cast`` e prestar aten��o nos tipos das nossas vari�veis.
+Note que, ao converter o float para um tipo double, a precisão varia, logo, devemos ter cuidado com o ``Type Cast`` e prestar atenção nos tipos das nossas variáveis.

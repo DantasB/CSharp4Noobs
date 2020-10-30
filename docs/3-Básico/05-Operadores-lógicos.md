@@ -1,8 +1,8 @@
-# 3.5 Operadores L�gicos e de Compara��o
-Os operadores l�gicos s�o utilizados quando � necess�rio usar duas ou mais condi��es dentro da mesma instru��o if para que seja tomada uma �nica decis�o cujo resultado ser� verdadeiro ou falso.
+# 3.5 Operadores lógicos e de Comparação
+Os operadores lógicos são utilizados quando é necessário usar duas ou mais condições dentro da mesma instrução if para que seja tomada uma única decisão cujo resultado será verdadeiro ou falso.
 
 
-| Operadores L�gicos | Significado           |
+| Operadores lógicos | Significado           |
 |--------------------|-----------------------|
 | &&                 | and condicional       |
 | !                  | not                   |
@@ -14,25 +14,25 @@ Os operadores l�gicos s�o utilizados quando � necess�rio usar duas ou ma
 | <<                 | shift para a esquerda |
 | >>                 | shift para a direita  |
 
-A diferen�a das condi��es condicionais para as bit a bit s�o as seguites:
+A diferença das condições condicionais para as bit a bit são as seguites:
 
-- Condicional: S� testa o segundo lado se o primeiro lado for verdadeiro (no caso do and) ou falso (no caso do or).
+- Condicional: Só testa o segundo lado se o primeiro lado for verdadeiro (no caso do and) ou falso (no caso do or).
 - Bit a bit: Testa ambos os lados todas as vezes.
 
 
-| Operadores de Compara��o | Significado           |
+| Operadores de Comparação | Significado           |
 |--------------------------|-----------------------|
 | >                        | maior que             |
 | <                        | menor que             |
 | >=                       | maior ou igual        |
 | <=                       | menor ou igual        |
 | ==                       | igual                 |
-| !=                       | n�o igual (diferente) |
+| !=                       | não igual (diferente) |
 
 
 ## Exemplos:
 
-```
+```csharp
 using System;
 
 public class Program
@@ -43,14 +43,14 @@ public class Program
 
 		if(dinheiro >= 100)
 		{
-			Console.WriteLine("Voc� acabou de adquirir um fone de ouvido novo");
+			Console.WriteLine("você acabou de adquirir um fone de ouvido novo");
 		}
 		else
 		{
-			Console.WriteLine("Voc� ainda n�o possui dinheiro para comprar este fone de ouvido");
+			Console.WriteLine("você ainda não possui dinheiro para comprar este fone de ouvido");
 		}
     }
 }
 ```
 
-Note que alguns dos comandos utilizados acima ser�o vistos posteriormente!
+Note que alguns dos comandos utilizados acima serão vistos posteriormente!

@@ -1,17 +1,17 @@
-# 3.7 Estruturas de Repeti��o
-Os comandos de repeti��o s�o um recurso que permite que um certo trecho do c�digo de um programa dentro deste loop seja repetido um certo n�mero de vezes. 
-Facilitando gerar c�digos mais organizados e l�gicas mais complexas.
+# 3.7 Estruturas de Repetição
+Os comandos de repetição são um recurso que permite que um certo trecho do código de um programa dentro deste loop seja repetido um certo número de vezes. 
+Facilitando gerar códigos mais organizados e lógicas mais complexas.
 
-Na liguagem C# existem tr�s comandos de repeti��o: while, do-while e for.
+Na liguagem C# existem três comandos de repetição: while, do-while e for.
 
 ## While
 
-O ``While`` � uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Esta estrutura ir� checar primeiro a condi��o e, caso a condi��o seja ``true`` o c�digo ser� executado
+O ``While`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Esta estrutura irá checar primeiro a condição e, caso a condição seja ``true`` o código será executado
 
 ### Exemplo
 
-```
+```csharp
 using System;
 
 public class Program
@@ -32,7 +32,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 0
@@ -44,11 +44,11 @@ Depois de compilado, o resultado ser�:
 
 ## Do-While
 
-O ``Do-While`` � uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Contudo, diferente do ``While`` regular, esta estrutura ir� rodar o c�digo primeiro, e depois verificar a condi��o.
+O ``Do-While`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Contudo, diferente do ``While`` regular, esta estrutura irá rodar o código primeiro, e depois verificar a condição.
 
 ### Exemplo
-```
+```csharp
 using System;
 
 public class Program
@@ -57,7 +57,7 @@ public class Program
     {
         int controle = 0;
 
-        //Fa�a.
+        //Faça.
         do
         {
             Console.WriteLine(controle);
@@ -70,7 +70,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 0
@@ -80,23 +80,23 @@ Depois de compilado, o resultado ser�:
 4
 ```
 
-Neste exemplo espec�fico, o resultado para ambos os loops � igual. Contudo � necess�rio ter cuidado com a l�gica utilizada para que n�o seja obtido algum resultado inesperado. 
+Neste exemplo específico, o resultado para ambos os loops é igual. Contudo é necessário ter cuidado com a lógica utilizada para que não seja obtido algum resultado inesperado. 
 
 ## For
 
-O ``for`` � uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Esta estrutura ir� checar primeiro a condi��o e, caso a condi��o seja ``true`` o c�digo ser� executado
+O ``for`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Esta estrutura irá checar primeiro a condição e, caso a condição seja ``true`` o código será executado
 
 ### Exemplo
 
-```
+```csharp
 using System;
 
 public class Program
 {
     public static void Main()
     {
-        //Para cada i, enquanto i for menor que 5, soma 1 ao i ap�s o t�rmino do primeiro passo.
+        //Para cada i, enquanto i for menor que 5, soma 1 ao i após o término do primeiro passo.
         for(int i = 0; i<5; i++)
         {
             Console.WriteLine(i);
@@ -105,7 +105,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 0
@@ -117,12 +117,12 @@ Depois de compilado, o resultado ser�:
 
 ## Foreach
 
-O ``foreach`` � uma estrutura de loop que funciona um pouco diferente das outras estruturas.
-Esta fun��o em espec�fico ir� iterar cada objeto que est� dentro de outro objeto maior. (Ser� melhor observando o exemplo abaixo)
+O ``foreach`` é uma estrutura de loop que funciona um pouco diferente das outras estruturas.
+Esta função em específico irá iterar cada objeto que está dentro de outro objeto maior. (será melhor observando o exemplo abaixo)
 
 ### Exemplo
 
-```
+```csharp
 using System;
 
 public class Program
@@ -140,7 +140,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 s

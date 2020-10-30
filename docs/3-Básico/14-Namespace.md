@@ -1,13 +1,13 @@
 # 3.16 Namespace
 
-Os namespaces, em C#, tendem a ser utilizados para organizar suas classes e projetos dentro de uma mesma solução. 
-Somente para ilustrar ao leitor, a maioria dos aplicativo do C#, começam com uma seção de ``using``.
-Esta seção lista todos os namespaces que o aplicativo usará com frequência, evitando que o programador repita o nome a cada vez que o método contido for utilizado.
+Os namespaces, em C#, tendem a ser utilizados para organizar suas classes e projetos dentro de uma mesma soluï¿½ï¿½o. 
+Somente para ilustrar ao leitor, a maioria dos aplicativo do C#, comeï¿½am com uma seï¿½ï¿½o de ``using``.
+Esta seï¿½ï¿½o lista todos os namespaces que o aplicativo usarï¿½ com frequï¿½ncia, evitando que o programador repita o nome a cada vez que o mï¿½todo contido for utilizado.
 
 Podemos observar melhor com o exemplo abaixo:
 
-```
-using System; //Neste caso fazemos uma referência ao namespace System.
+```csharp
+using System; //Neste caso fazemos uma referï¿½ncia ao namespace System.
 
 public class Program
 {
@@ -19,23 +19,23 @@ public class Program
 	public void Main()
 	{
 		Console.WriteLine(somador(10,20));
-		System.Console.WriteLine(somador(10,20)); //Também é possível executar o código acima, desta forma, fazendo com que não seja necessário adicionar a diretiva using System
+		System.Console.WriteLine(somador(10,20)); //Tambï¿½m ï¿½ possï¿½vel executar o cï¿½digo acima, desta forma, fazendo com que nï¿½o seja necessï¿½rio adicionar a diretiva using System
 	}	
 }
 
 ```
 
-No exemplo acima, não criamos nenhum namespace, porém, é possível fazer isso da seguinte forma:
+No exemplo acima, nï¿½o criamos nenhum namespace, porï¿½m, ï¿½ possï¿½vel fazer isso da seguinte forma:
 
 ```
 namespace nome_do_namespace {
-   // código
+   // cï¿½digo
 }
 ```
 
-Ou seja, é possível encapsular toda a parte de soma em um namespace único e utilizar em outro código de maneira mais organizada. Como podemos observar abaixo:
+Ou seja, ï¿½ possï¿½vel encapsular toda a parte de soma em um namespace ï¿½nico e utilizar em outro cï¿½digo de maneira mais organizada. Como podemos observar abaixo:
 
-```
+```csharp
 using System;
 using Calculadora;
 
@@ -60,11 +60,11 @@ public class Program
 
 ```
 
-É importante ressaltar também que a criação de namespaces, não se limitam a um só por código ou projeto. Também é possível criar namespaces ``aninhados``, onde, neste caso, teremos que acessar o namespace utilizando ``ponto(.)``.
+ï¿½ importante ressaltar tambï¿½m que a criaï¿½ï¿½o de namespaces, nï¿½o se limitam a um sï¿½ por cï¿½digo ou projeto. Tambï¿½m ï¿½ possï¿½vel criar namespaces ``aninhados``, onde, neste caso, teremos que acessar o namespace utilizando ``ponto(.)``.
 
 Observe o exemplo abaixo:
 
-``` 
+```csharp
 using System;
 using Projeto.Calculadora; //Acessa o namespace Calculadora que se encontra dentro do projeto.
 using Projeto.DiasDaSemana; //Acessa o namespace DiasDaSemana que se encontra dentro do projeto.

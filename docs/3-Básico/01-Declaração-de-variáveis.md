@@ -1,19 +1,21 @@
-# 3.1 Declara��o de Vari�veis
+# 3.1 Declaração de Variáveis
 
-Antes de utilizar uma vari�vel, � necess�rio, OBRIGATORIAMENTE, declar�-la e especificar seu nome e tipo (posteriormente veremos que tem um outro par�metro, por�m este opcional).
+Antes de utilizar uma variável, é necessário, OBRIGATORIAMENTE, declara-la e especificar seu nome e tipo (posteriormente veremos que tem um outro parámetro, porém este opcional).
 
-O nome de uma vari�vel � referenciado como um identificador. Em C# existem regras espec�ficas na cria��o de um identificador:
+O nome de uma variável é referenciado como um identificador. Em C# existem regras específicas na criação de um identificador:
 
-- Um nome de vari�vel PODE conter apenas letras, n�meros ou underscore.
+- Um nome de variével PODE conter apenas letras, números ou underscore.
 
-- Um nome de vari�vel PRECISA come�ar com uma letra ou com underscore.
+- Um nome de variável PRECISA começar com uma letra ou com underscore.
 
-- Um nome de vari�vel n�o pode ser uma das palavras reservadas (if, for, while, string, etc).
+- Um nome de variável não pode ser uma das palavras reservadas (if, for, while, string, etc), sendo que é possível usando um @ antes da palavra, ex: @if . Mas veremos isso mais a fundo um pouco mas a frente!
 
-Al�m disso, � importante frizar que o nome de vari�vel, tal como outras linguagens de programa��o � case-sensitive, ou seja, a vari�vel valor � diferente da vari�vel Valor.
+Além disso, é importante frizar que o nome de variável, tal como outras linguagens de programação é case-sensitive, ou seja, a variável valor é diferente da variável Valor.
 
 
-� importante tamb�m falar que no mundo empresarial a gente utiliza alguns padr�es de nomenclatura:
+É importante também falar que no mundo empresarial a gente utiliza alguns padrões de nomenclatura:
 
-- Para vari�veis utilizamos o camelCase.
-- Para classes e fun��es utilizamos o PascalCase.
+- Para variáveis utilizamos o camelCase.
+- Para classes e funções utilizamos o PascalCase.
+
+Veja uma nomenclatura mais completa [aqui](https://github.com/Speckoz/Nomenclatura)

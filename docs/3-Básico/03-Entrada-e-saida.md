@@ -1,24 +1,24 @@
-# 3.3 Entrada e Sa�da
+# 3.3 Entrada e Saída
 
-Para voc� observar alguns resultados em C# ou receber entradas de usu�rios, precisamos utilizar fun��es padr�es (Console.WriteLine() e Console.ReadLine()).
-Lembrando que, � necess�rio incluir a biblioteca no in�cio do programa ``using System`` para que estas fun��es possam ser utilizadas.
+Para você observar alguns resultados em C# ou receber entradas de usuários, precisamos utilizar funções padrões (Console.WriteLine() e Console.ReadLine()).
+Lembrando que, é necessário incluir a biblioteca no início do programa ``using System`` para que estas funções possam ser utilizadas.
 
 ## Console.WriteLine()
 
-A fun��o ``Console.WriteLine()`` exibe um ou mais dados na tela. Dependendo do n�mero de par�metros passados, separados por v�rgula.
+A função ``Console.WriteLine()`` exibe um ou mais dados na tela. Dependendo do número de parámetros passados, separados por vírgula.
 
-Esta fun��o, diferente de algumas linguagens, pode imprimir qualquer tipo, ou at� mesmo ser chamada sem par�metro nenhum, imprimindo assim uma linha vazia.
+Esta função, diferente de algumas linguagens, pode imprimir qualquer tipo, ou até mesmo ser chamada sem parámetro nenhum, imprimindo assim uma linha vazia.
 
 ### Exemplos:
 
-```
+```csharp
 using System;
 
 public class Program
 {
 	public static void Main()
 	{
-		//Define uma vari�vel string de nome aSerImpresso, com o valor ``vez.``.
+		//Define uma variável string de nome aSerImpresso, com o valor ``vez.``.
 		string aSerImpresso = "vez.";
 
 		Console.WriteLine("Estou");
@@ -31,7 +31,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 Estou
@@ -42,19 +42,19 @@ isso!
 vez.
 ```
 
-Al�m disso, � poss�vel formatar valores dentro da string, passando assim multiplos par�metros.
+Além disso, é possível formatar valores dentro da string, passando assim multiplos parámetros.
 
-```
+```csharp
 using System;
 
 public class Program
 {
 	public static void Main()
 	{
-		//define uma vari�vel do tipo string de nome multiplicacao e atribui o valor "X".
+		//define uma variável do tipo string de nome multiplicacao e atribui o valor "X".
 		string multiplicacao = "X";
 
-		//define uma vari�vel do tipo int de nome valor e atribui o valor 4.
+		//define uma variável do tipo int de nome valor e atribui o valor 4.
 		int    valor         = 4;
 
 		Console.WriteLine("{0} {1} {0} = {2}", valor, multiplicacao, valor*valor);
@@ -62,7 +62,7 @@ public class Program
 }
 ```
 
-Depois de compilado, o resultado ser�:
+Depois de compilado, o resultado será:
 
 ```
 4 X 4 = 16
@@ -70,12 +70,12 @@ Depois de compilado, o resultado ser�:
 
 ## Console.ReadLine()
 
-A fun��o ``Console.ReadLine()`` para a execu��o do programa at� o usu�rio escrever um argumento e retorna uma string com o que foi inputado.
+A função ``Console.ReadLine()`` para a execução do programa até o usuário escrever um argumento e retorna uma string com o que foi inputado.
 
 
 ### Exemplo:
 
-```
+```csharp
 using System;
 
 public class Program
@@ -86,24 +86,24 @@ public class Program
 
 		string aSerImpresso = Console.ReadLine();
 
-		Console.WriteLine("Ol�, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
+		Console.WriteLine("Olá, {0}. Seja bem-vindo ao curso de CSharp.", aSerImpresso);
 	}
 }
 
 ```
 
-Depois de compilado, considerando que o usu�rio entrou o seu nome, o resultado ser�:
+Depois de compilado, considerando que o usuário entrou o seu nome, o resultado será:
 
 ```
 Qual o seu Nome?
-Ol�, Bruno. Seja bem-vindo ao curso de CSharp.
+Olá, Bruno. Seja bem-vindo ao curso de CSharp.
 ```
 
 
-Existem tamb�m outros m�todos menos utilizados. N�o abordaremos neste curso, por�m � interessante lerem a respeito:
+Existem também outros métodos menos utilizados. Não abordaremos neste curso, porém é interessante lerem a respeito:
 
-Fun��o		      | O que faz
+Função		      | O que faz
 -------------     | -------------
-Console.Read()    | L� somente 1 char e retorna um ``int`` com o valor ASCII deste Char.
-Console.ReadKey() | L� a tecla digitada pelo usu�rio e retorna um ``ConsoleKeyInfo`` que � um objeto, cujo par�metro ``.key``, � o nome desta tecla.
-Console.Write()   | Uma outra forma de executar o WriteLine, por�m com algumas peculiaridades.
+Console.Read()    | Lá somente 1 char e retorna um ``int`` com o valor ASCII deste Char.
+Console.ReadKey() | Lá a tecla digitada pelo usuário e retorna um ``ConsoleKeyInfo`` que é um objeto, cujo parámetro ``.key``, é o nome desta tecla.
+Console.Write()   | Uma outra forma de executar o WriteLine, porém com algumas peculiaridades.

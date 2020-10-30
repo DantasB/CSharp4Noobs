@@ -1,8 +1,8 @@
 # 3.11 Enum
 
-Uma enumera��o � um conjunto de inteiros constantes nomeados. Um tipo ``enumerate`` � declarado quando utilizamos ``enum``
+Uma enumeração é um conjunto de inteiros constantes nomeados. Um tipo ``enumerate`` é declarado quando utilizamos ``enum``
 
-A estrutura b�sica de um enum em c# � da seguinte forma:
+A estrutura básica de um enum em c# é da seguinte forma:
 
 ```csharp
 enum <nome do enum> {
@@ -36,20 +36,20 @@ public class Program
 		int fimDaSemana    = (int)Dias.Sab;
          
         Console.WriteLine("Domingo: {0}", comecoDaSemana);
-        Console.WriteLine("S�bado: {0}", fimDaSemana);
+        Console.WriteLine("Sábado: {0}", fimDaSemana);
 		
 	}
 }
 ```
 
-A sa�da deste c�digo ser�:
+A saída deste código será:
 
 ```
 Domingo: 0
-S�bado: 6
+Sábado: 6
 ```
 
-Uma observa��o interessante, � que, para evitar poss�veis problemas de ordem do enum, � poss�vel atribuir valores aos enums.
+Uma observação interessante, é que, para evitar possíveis problemas de ordem do enum, é possível atribuir valores aos enums.
 
 Podemos observar melhor abaixo:
 
@@ -65,4 +65,4 @@ enum Dias {
 };
 ```
 
-Notem que mesmo invertendo a ordem de Quinta com Quarta, como os valores foram definidos na ordem correta, n�o teremos problemas na l�gica.
+Notem que mesmo invertendo a ordem de Quinta com Quarta, como os valores foram definidos na ordem correta, não teremos problemas na lógica.
