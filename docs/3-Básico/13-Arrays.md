@@ -1,38 +1,38 @@
 # 3.15 Arrays
 
-Um array, armazena uma coleÁ„o de elementos de mesmo tipo, de forma sequencial em um tamanho fixo.
+Um array, armazena uma cole√ß√£o de elementos de mesmo tipo, de forma sequencial em um tamanho fixo.
 
-Esta estrutura de dados È utilizada para armazenar uma coleÁ„o de dados, contudo, as vezes È mais comum pensar em um array como uma coleÁ„o de vari·veis do mesmo tipo, armazenado em um espaÁo de memÛria contÌguo.
+Esta estrutura de dados √© utilizada para armazenar uma cole√ß√£o de dados, contudo, as vezes √© mais comum pensar em um array como uma cole√ß√£o de vari√°veis do mesmo tipo, armazenado em um espa√ßo de mem√≥ria cont√≠guo.
 
-Em vez de declarar vari·veis de maneira individual, ``num0, num1, ...,`numn`` nÛs declaramos um array de nome ``num`` e nÛs podemos acessar os n˙meros indexando de ``0 atÈ n``, para representar vari·veis individuais. 
+Em vez de declarar vari√°veis de maneira individual, ``num0, num1, ...,`numn`` n√≥s declaramos um array de nome ``num`` e n√≥s podemos acessar os n√∫meros indexando de ``0 at√© n``, para representar vari√°veis individuais. 
 
-Todos os arrays consistem em espaÁos de memÛria contÌguos. O menor endereÁo corresponde ao primeiro elemento e o maior endereÁo corresponde ao ultimo elemento.
+Todos os arrays consistem em espa√ßos de mem√≥ria cont√≠guos. O menor endere√ßo corresponde ao primeiro elemento e o maior endere√ßo corresponde ao ultimo elemento.
 
-Uma estrutura geral de um array È dada da seguinte forma:
+Uma estrutura geral de um array √© dada da seguinte forma:
 
 ```
 <type>[] <arrayName>;
 ```
 
-… importante ressaltar que um array, È utilizado para definir matrizes (unidimensionais, multidimensionais e etc).
+√â importante ressaltar que um array, √© utilizado para definir matrizes (unidimensionais, multidimensionais e etc).
 
-Outra ressalva importante È que, ao instanciar um array, o compilador do C# implicitamente inicializa cada elemento do array para um valor ``default`` dependendo do tipo do array. Como por exemplo o caso de um ``int[]`` todos os elementos s„o inicializados em 0.
+Outra ressalva importante √© que, ao instanciar um array, o compilador do C# implicitamente inicializa cada elemento do array para um valor ``default`` dependendo do tipo do array. Como por exemplo o caso de um ``int[]`` todos os elementos s√£o inicializados em 0.
 
 Abaixo veremos alguns exemplos de como instanciar um array.
 
 ### Exemplo
 
-```
+```csharp
 using System;
 
 public class Program
 {
 	public static void Main()
 	{
-		//Define um array1 de tamanho 5. Onde os Ìndices est„o definidos de 0 ‡ 4.
+		//Define um array1 de tamanho 5. Onde os √≠ndices est√£o definidos de 0 √© 4.
 		int[] array1 = new int[5];
 
-		// Declara um array2 de tamanho 5. Onde os elementos j· est„o prÈ inseridos.
+		// Declara um array2 de tamanho 5. Onde os elementos j√° est√£o pr√© inseridos.
         int[] array2 = new int[] { 1, 3, 5, 7, 9 };
 
 		// Sintaxe alternativa para definir um array.
@@ -41,11 +41,11 @@ public class Program
 		// Sintaxe alternativa para definir um array.
 		int[] array4 = new int[5]  { 99,  98, 92, 97, 95};
 
-		//TambÈm È possÌvel copiarmos uma vari·vel array em outra vari·vel.
+		//Tamb√©m √© poss√≠vel copiarmos uma vari√°vel array em outra vari√°vel.
 		int[] valor = new int[]  { 99,  98, 92, 97, 95};
 		int[] copia = valor;
 
-		//Podemos utilizar de exemplo como acessar o elemento de n˙mero 92 deste array definida acima.
+		//Podemos utilizar de exemplo como acessar o elemento de n√∫mero 92 deste array definida acima.
 		int valorNoArray = valor[2]; 
 	}
 }
@@ -53,7 +53,7 @@ public class Program
 
 ## Matrizes Multidimensionais
 
-Uma matriz multidimensional, È na verdade um array multidimensional que pode ser declarado da seguinte forma:
+Uma matriz multidimensional, √© na verdade um array multidimensional que pode ser declarado da seguinte forma:
 
 ```
 <type>[,] <arrayName>;  //Array bidimensional.
@@ -72,17 +72,17 @@ public class Program
 	public static void Main()
 	{
 
-		//Define uma matriz-2D de tamanho ``4x2``. Onde os Ìndices est„o definidos de 0 ‡ 3 e 0 atÈ 1.
+		//Define uma matriz-2D de tamanho ``4x2``. Onde os √≠ndices est√£o definidos de 0 √© 3 e 0 at√© 1.
 		int[,] matriz2D = new int[4, 2];
 
-		//Define uma matriz-3D de tamanho ``4x2x3``. Onde os Ìndices est„o definidos de 0 ‡ 3, 0 atÈ 1 e 0 atÈ 2.
+		//Define uma matriz-3D de tamanho ``4x2x3``. Onde os √≠ndices est√£o definidos de 0 √© 3, 0 at√© 1 e 0 at√© 2.
 		int[, ,] matriz3D = new int[4, 2, 3];
 
 		//Sintaxe alternativa para definir uma matriz-2D de tamanho ``4x2``.
 		int[,] matriz2D1 = new int[4, 2] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
 
 		//Sintaxe alternativa para definir uma matriz-2D de tamanho ``4x2``.
-		//Cada conjunto definido por ``{}`` significa uma linha da matriz. Enquanto cada elemento È definido pelo elemento i,j desta matriz.
+		//Cada conjunto definido por ``{}`` significa uma linha da matriz. Enquanto cada elemento √© definido pelo elemento i,j desta matriz.
 		int[,] matriz2D2 = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
 
 		//Sintaxe alternativa para definir uma matriz-3D de tamanho ``2x2x3``.
@@ -93,7 +93,7 @@ public class Program
 		int[, ,] matriz3D3 = new int[2, 2, 3] { { { 1, 2, 3 }, { 4, 5, 6 } },
 											   { { 7, 8, 9 }, { 10, 11, 12 } } };
 
-		//Podemos utilizar de exemplo como acessar o elemento de n˙mero 12 desta matriz3D definida acima.
+		//Podemos utilizar de exemplo como acessar o elemento de n√∫mero 12 desta matriz3D definida acima.
 		int valor = matriz3D3[1,1,2]; 
 	}
 }
@@ -101,16 +101,16 @@ public class Program
 
 ## Matrizes Denteadas
 
-Uma matriz denteada È uma matriz cujos elementos s„o matrizes. Os elementos de uma matriz denteada podem ter diferentes dimensıes e tamanhos. ¿s vezes, uma matriz denteada È chamada de matriz de matrizes.
+Uma matriz denteada √© uma matriz cujos elementos s√£o matrizes. Os elementos de uma matriz denteada podem ter diferentes dimens√µes e tamanhos. √†s vezes, uma matriz denteada √© chamada de matriz de matrizes.
 
-Tal como os exemplos anteriores, È possÌvel criar uma matriz denteada definida por n matrizes.
+Tal como os exemplos anteriores, √© poss√≠vel criar uma matriz denteada definida por n matrizes.
 
 ```
 <type>[][] <arrayName>;  //Matriz bidimensional.
 
 ```
 
-Diferente dos mÈtodos anteriores, criar uma matriz denteada, n„o cria o array na memÛria. Portanto, È necess·rio fazer o seguinte:
+Diferente dos m√©todos anteriores, criar uma matriz denteada, n√£o cria o array na mem√≥ria. Portanto, √© necess√°rio fazer o seguinte:
 ```
 using System;
 
@@ -120,10 +120,10 @@ public class Program
 	{
 		int[][] valores = new int[5][];
 
-		//valores.Length È o tamanho deste array. Que neste caso È 5.
+		//valores.Length √© o tamanho deste array. Que neste caso √© 5.
 		for (int i = 0; i < valores.Length; i++) {
 			
-			//Cada array criado agora È um array de tamanho 4.
+			//Cada array criado agora √© um array de tamanho 4.
 			valores[i] = new int[4];
 		}
 	}
@@ -149,7 +149,7 @@ public class Program
 		int[][] valores1 = new int[][]{new int[]{0,0}, new int[]{1,2},
 						   new int[]{2,4}, new int[]{ 3, 6 }, new int[]{ 4, 8 } };
 
-		//Podemos utilizar de exemplo como acessar o elemento de n˙mero 6 desta matriz3D definida acima.
+		//Podemos utilizar de exemplo como acessar o elemento de n√∫mero 6 desta matriz3D definida acima.
 		int resultado = valores1[3][1]; 
 	}
 }
