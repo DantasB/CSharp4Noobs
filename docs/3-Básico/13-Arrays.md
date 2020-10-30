@@ -33,10 +33,10 @@ public class Program
 		int[] array1 = new int[5];
 
 		// Declara um array2 de tamanho 5. Onde os elementos já estão pré inseridos.
-        int[] array2 = new int[] { 1, 3, 5, 7, 9 };
+        	int[] array2 = new int[] { 1, 3, 5, 7, 9 };
 
 		// Sintaxe alternativa para definir um array.
-        int[] array3 = { 1, 2, 3, 4, 5, 6 };
+        	int[] array3 = { 1, 2, 3, 4, 5, 6 };
 
 		// Sintaxe alternativa para definir um array.
 		int[] array4 = new int[5]  { 99,  98, 92, 97, 95};
