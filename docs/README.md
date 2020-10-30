@@ -7,6 +7,7 @@
   - [2.2 - Sistemas Operacionais](/docs/2-Ambiente/2-Sistemas-Operacionais.md)
   - [2.3 - Windows](/docs/2-Ambiente/3-Windows.md)
   - [2.4 - Linux](/docs/2-Ambiente/4-Linux.md)
+  - [MacOS](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
   - [2.5 - Online](/docs/2-Ambiente/5-Online.md)
 - [3 - Básico](/docs/3-Básico)
   - [3.1 - Declaração de variáveis](/docs/3-Básico/01-Declaração-de-variáveis.md)
