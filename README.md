@@ -9,7 +9,7 @@
 <!-- Title -->
 
 <p align="center">
-  <h2 align="center">CSharp 4Noobs</h2>
+  <h2 align="center">CSharp4Noobs</h2>
 
   <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg" alt="Imagem da linguagem" width="120"></h1>
   
@@ -18,16 +18,16 @@
     <a href="/docs"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Reportar Problema</a>
     ·
-    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=feature_request.md&title=">Sugerir Novidades/Modificaçoes</a>
   </p>
 </p>
     
  <!-- ABOUT THE PROJECT -->
 
 ## Sobre o Projeto
-A ideia deste repositório é ensinar ao leitor os conceitos e aplicaçoes basicas da linguagem de programaçao C#.  
+A ideia deste repositório é ensinar ao leitor os conceitos e aplicaçoes basicas da linguagem de programaçao C# dentro da plataforma .Net Core
   
 <!-- CONTRIBUTING -->
 
