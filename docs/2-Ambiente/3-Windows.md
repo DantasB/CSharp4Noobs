@@ -43,18 +43,18 @@ Em seguida, execute o Visual Studio e crie um novo projeto do tipo Console App.
 
 <img src="https://user-images.githubusercontent.com/37851168/97753893-8f98cc80-1ac4-11eb-93ee-8bede3401ddc.png" width="500" heigth="300"/>
 
-use o `CRTL + F5` para executar o programa, e veja a magia!
+use o `CRTL + F5` para executar o programa, e veja a mágia!
 
 <img src="https://user-images.githubusercontent.com/37851168/97753942-a6d7ba00-1ac4-11eb-92c0-52c600e7dc7f.png" width="500" heigth="300"/>
 
 #### Rider
-Essa é uma IDE da [JetBrains](https://www.jetbrains.com/rider/) focada em desenvolvimento nas tecnologias suportadas pelo .Net Core para varios Sistemas, incluindo o Windows!
+Essa é uma IDE da [JetBrains](https://www.jetbrains.com/rider/) focada no desenvolvimento usando tecnologias suportadas pelo .Net Core para varios Sistemas, incluindo o Windows!
 
 #### MonoDevelop
 Mais uma incrível ferramenta para desenvolvimento multiplaforma usando o .Net Core, e além disso, é uma IDE gratuita e [Open Source](https://github.com/mono/monodevelop)
 
 #### Notepad++ + Windows Terminal :D
-Como já foi mencionado, é possivel programar c# independente da IDE/Editor de texto, uma prova disso, é esse casal maravilho.
+Como já foi mencionado, é possivel programar c# independente da IDE/Editor de texto, uma prova disso, é esse casal maravilhoso.
 <img src="https://user-images.githubusercontent.com/37851168/97754593-c7544400-1ac5-11eb-8cf6-7db816770a34.png" width="500" heigth="300"/>
 
 ## Come on!!!
