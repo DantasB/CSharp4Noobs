@@ -19,6 +19,7 @@ Também terá outro arquivo `.cs` que é um exemplo de codigo que mostra `Hello 
 
 ## Rodando o projeto
 Depois de tudo instalado e configurado use o comando no terminal do VSCode `dotnet run` para rodar o projeto, um `Hello World!` deve aparecer no console.
+
 <img src="https://user-images.githubusercontent.com/37851168/97752519-20ba7400-1ac2-11eb-932a-8f3488843e3c.png" width="500" heigth="300"/>
 
 ## Alternativas de Editores/IDEs
