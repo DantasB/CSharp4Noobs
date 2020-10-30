@@ -1,38 +1,21 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Reportar bug
+about: Nos informe os problemas que acontecer nessa documentaçao
 title: ''
 labels: ''
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Explique o problema**
+ex: Redirecionamento para o tópico x está dando 404...
 
-**To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
-
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Como aconteceu**
+Explique os passos:
+1. vá até a pagina '...'
+2. Clique em '....'
+3. Acontecerá o erro '...'
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+Envie-nos algumas imagens do problema
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
-
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
-
-**Additional context**
-Add any other context about the problem here.
