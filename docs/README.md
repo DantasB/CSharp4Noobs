@@ -17,12 +17,12 @@
   - [3.6 - Instruções condicionais](/docs/3-Básico/06-Instruções-condicionais.md) 
   - [3.7 - Estruturas de repetição](/docs/3-Básico/07-Estruturas-de-repetição.md) 
   - [3.8 - Funções](/docs/3-Básico/08-Funções.md) 
-  - [3.9 - Conversoes de tipos](/docs/3-Básico/09-ty-catch.md) 
-  - [3.10 - Conversoes de tipos](/docs/3-Básico/09-Conversão-de-tipo.md) 
-  - [3.11 - Enum](/docs/3-Básico/10-Enum.md) 
-  - [3.12 - Tipos anuláveis](/docs/3-Básico/11-Nullable.md) 
-  - [3.13 - Arrays](/docs/3-Básico/12-Arrays.md) 
-  - [3.14 - Namespaces](/docs/3-Básico/13-Namespace.md) 
+  - [3.9 - Tratamento de exceçoes](/docs/3-Básico/09-Try-catch.md) 
+  - [3.10 - Conversoes de tipos](/docs/3-Básico/10-Conversão-de-tipo.md) 
+  - [3.11 - Enum](/docs/3-Básico/11-Enum.md) 
+  - [3.12 - Tipos anuláveis](/docs/3-Básico/12-Nullable.md) 
+  - [3.13 - Arrays](/docs/3-Básico/13-Arrays.md) 
+  - [3.14 - Namespaces](/docs/3-Básico/14-Namespace.md) 
 - [Intermediário](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
 - [Avançado](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-red">
 - [4 - Referências](/docs/4-Referências)
