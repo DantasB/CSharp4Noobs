@@ -41,3 +41,41 @@ public class Pessoa
   }
 }
 ```
+
+## Classes Estáticas
+
+A inclusão da palavra chave ``static`` na declaração da classe define que ela não poderá ser instanciada e todos os membros (métodos, propriedades) também deverão ser estáticos. De resto, é basicamente uma classe comum.
+
+```csharp
+// Definição da classe
+public static class Pessoa
+{
+}
+```
+
+Para chamar uma classe estática, é necessário utilizar seu nome, como no exemplo abaixo:
+
+```csharp
+// [nome da classe].[metodo|propriedade]
+Pessoa.MetodoQualquer();
+```
+
+## Construtores estáticos
+
+São utilizados para inicializar dados estáticos na classe, ou para executar alguma ação que precisa ser executada apenas uma vez.
+
+Os construtores estáticos são chamados antes de qualquer construtor da instância ou membro é acessado.
+
+```csharp
+public class Pessoa
+{
+  // Variável estática
+  static readonly int idade;
+
+  // Construtor estático
+  static Pessoa()
+  {
+    idade = 20;
+  }
+} 
+```
