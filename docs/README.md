@@ -25,7 +25,7 @@
   - [3.13 - Arrays](/docs/3-Básico/13-Arrays.md) 
   - [3.14 - Namespaces](/docs/3-Básico/14-Namespace.md) 
 - [Intermediário](/docs/4-Intermediario)
-  - [4.1 - Modificadores-de-acesso](/docs/4-Intermediario/01-Modificadores-de-acesso.md)
+  - [4.1 - Modificadores de acesso](/docs/4-Intermediario/01-Modificadores-de-acesso.md)
   - [4.2 - Classes](/docs/4-Intermediario/02-Classes.md)
 - [Avançado](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
 - [4 - Referências](/docs/4-Referências)
