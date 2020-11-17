@@ -1,4 +1,4 @@
-# 3.15 Modificadores de acesso
+# 4.1 Modificadores de acesso
 
 São palavras-chave que servem para especificar a acessibilidade de um tipo ou membro.
 

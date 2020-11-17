@@ -1,4 +1,4 @@
-# 4.1 Classes
+# 4.2 Classes
 
 As classes em uma linguagem orientada a objetos, no caso o C#, podem ser pensadas como um template para o que um objeto deveria ser.
 
