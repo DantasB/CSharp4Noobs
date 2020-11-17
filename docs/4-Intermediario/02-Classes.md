@@ -66,6 +66,8 @@ São utilizados para inicializar dados estáticos na classe, ou para executar al
 
 Os construtores estáticos são chamados antes de qualquer construtor da instância ou membro é acessado.
 
+Independente da classe ser estática ou não, pode ter somente 1 construtor estático, enquanto uma classe não-estática podem ter quantos construtores de instância forem necessários. 
+
 ```csharp
 public class Pessoa
 {
