@@ -1,15 +1,15 @@
-# 5.1 Refer�ncias
+# 5.1 Referências
 
-## Sites com dicas/informa��es sobre em C#
+## Sites com dicas/informações sobre em C#
 
-- [Documenta��o Oficial da Microsoft](https://docs.microsoft.com/pt-br/dotnet/csharp/)
+- [Documentação Oficial da Microsoft](https://docs.microsoft.com/pt-br/dotnet/csharp/)
 
 - [Macoratti](http://www.macoratti.net/pageview.aspx?catid=18)
 
-- [Tutorialspoint - Em ingl�s](https://www.tutorialspoint.com/csharp/index.htm)
+- [Tutorialspoint - Em inglês](https://www.tutorialspoint.com/csharp/index.htm)
 
 
-## Dicas de como configurar a interface de programa��o
+## Dicas de como configurar a interface de programação
 
 - [Como programar em C# no VSCode](https://code.visualstudio.com/Docs/languages/csharp)
 
