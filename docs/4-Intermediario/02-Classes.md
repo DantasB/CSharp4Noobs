@@ -71,7 +71,7 @@ Independente da classe ser estática ou não, pode ter somente 1 construtor est�
 ```csharp
 public class Pessoa
 {
-  // Variável estática
+  // campo estático
   static readonly int idade;
 
   // Construtor estático
