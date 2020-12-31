@@ -29,7 +29,7 @@ Todas as coleções implementam algumas *interfaces* em comum. Essas *interfaces
 As principais *interfaces* são: `IEnumerable`, `ICollection`, `IDictionary` e `IList`.
   
 <p align="center">
-  <img src="">
+  <img src="https://user-images.githubusercontent.com/29133996/103426955-26a10400-4b9c-11eb-8d85-9ecbc2a53c8a.png">
 </p>
 
 `IEnumerable`: é a base para todos os tipos de coleções. Fornece um enumerador que possibilita iteração simples sob uma coleção não-genérica.
