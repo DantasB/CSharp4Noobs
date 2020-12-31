@@ -24,8 +24,9 @@
   - [3.12 - Tipos anuláveis](/docs/3-Básico/12-Nullable.md) 
   - [3.13 - Arrays](/docs/3-Básico/13-Arrays.md) 
   - [3.14 - Namespaces](/docs/3-Básico/14-Namespace.md) 
-- [4 - Intermediário](/docs/4-Intermediario) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20DENSENVOLVIMENTO-purple">
+- [4 - Intermediário](/docs/4-Intermediario) <img alt="Badge em desenvolvimento" src="https://img.shields.io/badge/-EM%20DESENVOLVIMENTO-purple">
   - [4.1 - Modificadores de acesso](/docs/4-Intermediario/01-Modificadores-de-acesso.md)
   - [4.2 - Classes](/docs/4-Intermediario/02-Classes.md)
-- [Avançado](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
-- [5 - Referências](/docs/4-Referências)
+- [5 - Avançado](/docs/5-Avancado) <img alt="Badge em desenvolvimento" src="https://img.shields.io/badge/-EM%20DESENVOLVIMENTO-purple">
+  - [5.1 - Coleções](/docs/5-Avancado/01-Colecoes.md)
+- [6 - Referências](/docs/6-Referências)
