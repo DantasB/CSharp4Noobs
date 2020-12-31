@@ -33,8 +33,11 @@ As principais *interfaces* são: `IEnumerable`, `ICollection`, `IDictionary` e `
 </p>
 
 `IEnumerable`: é a base para todos os tipos de coleções. Fornece um enumerador que possibilita iteração simples sob uma coleção não-genérica.
+
 `ICollection`: define o tamanho, enumeradores e métodos de sincronização para todas as coleções não-genéricas.
+
 `IDicionary`: representa uma coleção não-genérica de pares de chave-valor.
+
 `IList`: representa uma coleção não genérica de objetos que podem ser acessados individualmente por índices.
 
 As interfaces não são implementadas por todas as coleções, depende da natureza da coleção. Por exemplo, a interface `IDictionary` só seria implementada por coleções que faram o uso de pares chave-valor, como *Hashtable* e *SortedList*.
@@ -43,7 +46,6 @@ As interfaces não são implementadas por todas as coleções, depende da nature
 ## Principais coleções
 
 ### **ArrayList**
----
 Essa coleção se encontra somente no namespace `System.Collections`. Sua classe tipada equivalente é a `List<T>`.
 
 - Elementos podem ser adicionados e removidos da coleção a qualquer momento.
@@ -61,7 +63,6 @@ A indexação, inserção e remoção dos elementos no final da lista leva um te
   
 
 ### **Hashtable**
----
 - Chaves devem ser únicas e diferentes de nulas.
 - Permite valores duplicados e nulos.
 - Valores podem ser acessados utilizando a sua chave associada.
@@ -83,7 +84,6 @@ A versão genérica da coleção `Hashtable` é a `Dictionary<TKey,TValue>` que 
 
   
 ### **Queue (Fila)**
----
 - Permite elementos duplicados.
 - Aceita `null` como um valor válido a ser inserido.
 
@@ -96,7 +96,6 @@ As principais operações que podemos executar em uma fila são as seguintes:
 - Peek: retorna o elemento mais antigo da fila, ou seja, o que está na primeira posição. Mas não o remove igual ao comando *Dequeue*.
 
 ### **Stack (Pilha)**
----
 - Permite elementos duplicados.
 - Aceita `null` como um valor válido a ser inserido.
 
@@ -109,7 +108,6 @@ As principais operações que podemos executar em uma fila são as seguintes:
 - *Peek*: retorna o elemento mais novo da fila, ou seja, o que está na última posição. Mas não o remove igual ao comando *Pop*.
 
 ### **List**
----
 É uma coleção que pertence ao *namespace `System.Collections.Generic`.* Equivale à classe `ArrayList`, mas fortemente tipada.
 
 - Os elementos são acessados por índices, que começam em zero.
@@ -132,8 +130,6 @@ Filas e pilhas são recomendadas para quando você precisa de armazenamento temp
 **É possível ver as notações Big-O de diferentes estruturas de dados e algoritmos no link a seguir: [https://www.bigocheatsheet.com/](https://www.bigocheatsheet.com/)**
 
 ## Thread-Safe
-
-  
 
 As coleções Standard `ArrayList` e `Hashtable` por exemplo fornecem uma pequena implementação *thread-safe* através da propriedade `Syncronized`, que retorna um *wrapper thread-safe* em torno da coleção. O *wrapper* funciona bloqueando a coleção inteira em cada operação de escrita e remoção. Então, cada *thread* que tenta acessar a coleção deve aguardar sua vez para pegar obter a permissão de bloqueio. O problema é que isso não é escalável e pode causar problemas de performance se utilizarmos listas com uma enorme quantidade de elementos. Esse design também não é totalmente protegido de *race conditions* (falha em um sistema ou processo em que o resultado do processo é inesperadamente dependente da sequência ou sincronia doutros eventos).
 
