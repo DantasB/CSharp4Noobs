@@ -11,16 +11,16 @@
 <p align="center">
   <h2 align="center">CSharp4Noobs</h2>
 
-  <h1 align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/C_Sharp_logo.svg" alt="Imagem da linguagem" width="120"></h1>
+  <h1 align="center"><img src="https://user-images.githubusercontent.com/37851168/111392416-8a5ba900-8684-11eb-8c90-bfd7aeca9517.png" alt="Imagem da linguagem" width="140"></h1>
   
   <p align="center">
     <br />
     <a href="/docs"><strong>Explore a documentação »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Reportar Problema</a>
+    <a href="https://github.com/DantasB/CSharp4Noobs/issues/new?assignees=&labels=&template=bug_report.md&title=">Reportar Problema</a>
     ·
-    <a href="https://github.com/Logikoz/CSharp4Noobs/issues/new?assignees=&labels=&template=feature_request.md&title=">Sugerir Novidades/Modificaçoes</a>
+    <a href="https://github.com/DantasB/CSharp4Noobs/issues/new?assignees=&labels=&template=feature_request.md&title=">Sugerir Novidades/Modificaçoes</a>
   </p>
 </p>
     
