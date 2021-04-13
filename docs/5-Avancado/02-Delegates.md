@@ -22,6 +22,7 @@ Para chamar o delegate, apenas digite o nome do objeto instanciado adicionando o
 
 - *Delegate sem retorno e sem parâmetros*
 
+```
 using System;
 
 namespace testes
@@ -46,9 +47,11 @@ namespace testes
         }
     }
 }
+```
 
 - *Delegate sem retorno e com parâmetros*
 
+```
 using System;
 
 namespace testes
@@ -73,9 +76,10 @@ namespace testes
         }
     }
 }
+```
 
 - *Delegate com retorno e com parâmetros*
-
+```
 using System;
 
 namespace testes
@@ -107,3 +111,4 @@ namespace testes
         }
     }
 }
+```
