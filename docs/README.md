@@ -27,6 +27,7 @@
 - [4 - Intermediário](/docs/4-Intermediario) <img alt="Badge em desenvolvimento" src="https://img.shields.io/badge/-EM%20DESENVOLVIMENTO-purple">
   - [4.1 - Modificadores de acesso](/docs/4-Intermediario/01-Modificadores-de-acesso.md)
   - [4.2 - Classes](/docs/4-Intermediario/02-Classes.md)
+  - [4.3 - Heranca](/docs/4-Intermediario/03-Heranca.md)
 - [5 - Avançado](/docs/5-Avancado) <img alt="Badge em desenvolvimento" src="https://img.shields.io/badge/-EM%20DESENVOLVIMENTO-purple">
   - [5.1 - Coleções](/docs/5-Avancado/01-Colecoes.md)
 - [6 - Referências](/docs/6-Referências)
