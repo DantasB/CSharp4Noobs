@@ -81,3 +81,61 @@ namespace  testes
 ```
 
 No código acima, nós instanciamos um objeto da classe *Filho* passando os parâmetros *nome, idade e altura* mesmo *nome e idade* não tendo sido declarado na classe *Filho* , isso se dá por causa do reaproveitamento de código proveniente da Classe *Pai*. Além disso conseguimos chamar o método QuemEuSou através desse objeto.
+
+## 
+
+No código abaixo, utilizaremos como exemplo uma classe pai chamada "Conta" e uma classe Filho chamada "ContaCorrente". Como vimos, a classe filho herda todos os seus atributos e métodos da classe pai.
+
+```
+using  System;
+
+namespace  testes
+{
+	class Conta
+	{
+		public  int NumeroConta { get; set; }
+		
+		public  double Saldo { get; set; }
+
+		public  Conta () {}
+		
+		public  Conta (int numeroConta, double saldo)
+		{
+			NumeroConta = numeroConta;
+			Saldo = saldo;
+		}
+
+		public  void  Sacar(double valor)
+		{
+			Saldo = Saldo - valor;
+		}
+	}
+
+	//Aqui a classe ContaCorrente herda tudo da classe Conta
+	class ContaCorrente : Conta
+	{
+		public  string TipoConta { get; set; }
+		
+		public  ContaCorrente () {}
+		
+		public  ContaCorrente (int numeroConta, double saldo, string tipoConta) : base(numeroConta, saldo)
+		{
+
+			NumeroConta = numeroConta;
+			TipoConta = tipoConta;
+		}
+	}
+
+	class Program
+	{
+		static  void  Main(string[] args)
+		{
+			//Instanciando um objeto do tipo "ContaCorrente", que herda do seu pai "Conta" o atributo NumeroConta e Saldo, além do método saque
+			ContaCorrente cc =  new  ContaCorrente(12345, 3000.0, "Conta Corrente");
+			cc.Sacar(200.0);
+		}
+	}
+}
+```
+
+Como podemos ver no exemplo anterior, instanciamos um objeto chamado *cc* através da classe *ContaCorrente*  onde, através desse objeto, nós chamamos o método *Sacar* que é herdado do pai.
