@@ -1,8 +1,8 @@
 # 4.3 Herança
 No paradigma orientado a objetos nós temos três conceitos que são pilares, e a herança é um deles.  As vantagens que a herança traz consigo são o reuso e a possibilidade de fazer polimorfismo.
-Podemos pensar em uma relação de "Pai" e "Filho", onde o filho HERDA todas as características do pai (atributos e métodos). Vejamos um exemplo:
+Podemos pensar em uma relação de "Pai" e "Filho", onde o filho HERDA todas as características do pai (propriedades e métodos). Vejamos um exemplo:
 
-A seguir, temos uma classe  com nome *Pai* que contém os atributos nome e idade, além do método QuemEuSou.
+A seguir, temos uma classe  com nome *Pai* que contém as propriedades nome e idade, além do método QuemEuSou.
 
 ```
 using  System;
@@ -57,8 +57,8 @@ namespace  testes
 ```
 
 Percebe-se que há uma mudança na sintaxe da classe Filho, primeiro nós temos uma ocorrência de  um ***":"*** logo após o nome da classe Filho, e na frente temos ***Pai***, além disso, no construtor com argumentos da classe Filho, nós temos um ***: base (nome, idade)*** . O que seria isso?
-A ocorrência de ***": Pai"*** após o nome da classe Filho, significa que ele está *Herdando* tudo da classe Pai,  incluindo seus atributos e métodos. Já o ***: base (nome, idade)*** diz que ele está repassando os parâmetros *nome e idade* para o construtor da classe Pai. 
-Nesse exemplo em específico, eu fiz com que a classe Filho tivesse um atributo a mais: o atributo *Altura*, que 	não há na classe Pai. Então, constatamos aqui o reaproveitamento do código, visto que nós não declaramos os atributos *Nome e Idade* na classe Filho.
+A ocorrência de ***": Pai"*** após o nome da classe Filho, significa que ele está *Herdando* tudo da classe Pai,  incluindo suas propriedades e métodos. Já o ***: base (nome, idade)*** diz que ele está repassando os parâmetros *nome e idade* para o construtor da classe Pai. 
+Nesse exemplo em específico, eu fiz com que a classe Filho tivesse uma propriedade a mais: a propriedade *Altura*, que 	não há na classe Pai. Então, constatamos aqui o reaproveitamento do código, visto que nós não declaramos as propriedades *Nome e Idade* na classe Filho.
 
 Vejamos a instanciação:
 
@@ -84,7 +84,7 @@ No código acima, nós instanciamos um objeto da classe *Filho* passando os par�
 
 ## 
 
-No código abaixo, utilizaremos como exemplo uma classe pai chamada "Conta" e uma classe Filho chamada "ContaCorrente". Como vimos, a classe filho herda todos os seus atributos e métodos da classe pai.
+No código abaixo, utilizaremos como exemplo uma classe pai chamada "Conta" e uma classe Filho chamada "ContaCorrente". Como vimos, a classe filho herda todas as propriedades e métodos da classe pai.
 
 ```
 using  System;
@@ -130,7 +130,7 @@ namespace  testes
 	{
 		static  void  Main(string[] args)
 		{
-			//Instanciando um objeto do tipo "ContaCorrente", que herda do seu pai "Conta" o atributo NumeroConta e Saldo, além do método saque
+			//Instanciando um objeto do tipo "ContaCorrente", que herda do seu pai "Conta" as propriedades NumeroConta e Saldo, além do método saque
 			ContaCorrente cc =  new  ContaCorrente(12345, 3000.0, "Conta Corrente");
 			cc.Sacar(200.0);
 		}
