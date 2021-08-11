@@ -1,6 +1,6 @@
 # 1.1 Boas Vindas
 
-Sejam bem vindos ao curso de C# da He4rt Developers.
+Sejam bem-vindos ao curso de C# da He4rt Developers.
 
 Ficamos muito felizes de você ter chegado até aqui no nosso curso! Estaremos trabalhando nos próximos passos para que você saia desse curso entendendo o básico para começar a programar na linguagem C#.
 
@@ -9,7 +9,7 @@ Antes de iniciar, contaremos um pouco da história da linguagem, a fim de elucid
 No final da década de 1990 a Microsoft tinha diversas tecnologias e linguagens de programação, assim, toda vez que o programador precisava migrar para uma nova tecnologia e/ou linguagem, era necessário aprender tanto a nova linguagem, quanto suas bibliotecas e conceitos. Portanto, para solucionar esta problemática, a Microsoft recorreu à linguagem Java.
 Deste modo, para lançar produtos utilizando esta linguagem, a Empresa em questão teve de assinar um acordo de licenciamento com a Sun para utilizar o Java em ambiente Windows.
 
-No entanto, a linguagem Java possuia problemas de comunicação com bibliotecas de código nativo já existentes no windows, então, a Microsoft teve de alterar a linguagem, criando uma implementação de Java chamada J++ (Um dos desenvolvedores esteve por trás da linguagem Delphi), que por possuir extensões proprietárias, resolviam os problemas de comunicação.
+No entanto, a linguagem Java possuia problemas de comunicação com bibliotecas de código nativo já existentes no Windows, então, a Microsoft teve de alterar a linguagem, criando uma implementação de Java chamada J++ (Um dos desenvolvedores esteve por trás da linguagem Delphi), que por possuir extensões proprietárias, resolviam os problemas de comunicação.
 
 Porém, esta nova implementação da linguagem Java, só poderia ser executado nos ambientes da Microsoft, violando o licenciamento feito com a Sun, levando a Microsoft a receber um processo judicial.
 
