@@ -1,14 +1,14 @@
 # ROADMAP
 
-- [1 - Intrudução](/docs/1-Introdução)
+- [1 - Introdução](/docs/1-Introdução)
   - [1.1 - Boas-vindas](/docs/1-Introdução/1-Boas-vindas.md)
 - [2 - Ambiente](/docs/2-Ambiente)
   - [2.1 - Editores](/docs/2-Ambiente/1-Editores.md)
   - [2.2 - Sistemas Operacionais](/docs/2-Ambiente/2-Sistemas-Operacionais.md)
   - [2.3 - Windows](/docs/2-Ambiente/3-Windows.md)
   - [2.4 - Linux](/docs/2-Ambiente/4-Linux.md)
-  - [MacOS](#) <img alt="Badge em breve" src="https://img.shields.io/badge/-EM%20BREVE-purple">
-  - [2.5 - Online](/docs/2-Ambiente/5-Online.md)
+  - [2.5 - MacOS](/docs/2-Ambiente/5-MacOS.mb)
+  - [2.6 - Online](/docs/2-Ambiente/6-Online.md)
 - [3 - Básico](/docs/3-Básico)
   - [3.1 - Declaração de variáveis](/docs/3-Básico/01-Declaração-de-variáveis.md)
   - [3.2 - Tipos de variáveis](/docs/3-Básico/02-Tipos-de-variáveis.md)
