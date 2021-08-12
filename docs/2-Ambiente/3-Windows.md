@@ -29,7 +29,7 @@ Porem temos ótimas ferramentas mais robustas para melhorar a longo prazo a prod
 #### Visual Studio 
 Essa ferramenta para o Windows é simplesmente incrível, ela exige um hardware um pouco melhor, mas ela é excelente quando precisamos desenvolver aplicativos Web, Desktop (Windows), Mobile e muitos mais.
 
-> Note: O Visual Studio Code só é disponibilizado nos sistemas operacionais Windows e Mac OS.
+> Note: O Visual Studio só é disponibilizado nos sistemas operacionais Windows e Mac OS.
 
 A instalação dela é bem simples, entre [nesse](https://visualstudio.microsoft.com/pt-br/) link e baixe o instalador do Visual Studio Community (Gratuito).
 <img src="https://user-images.githubusercontent.com/37851168/97753103-3c724a00-1ac3-11eb-9ccf-796015026aab.png" width="500" heigth="300"/>
