@@ -1,8 +1,8 @@
 # 2.5 MacOS
-Para este curso, utilizaremos o SDk do .Net Core versão 3.1 no decorrer dos tópicos, e por ser multiplataforma, você pode rodar seus projetos desenvolvidos em outros sistemas, no MacOS também!
+Para este curso, utilizaremos o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core versão 3.1 no decorrer dos tópicos, e por ser multiplataforma, você pode rodar seus projetos desenvolvidos em outros sistemas, no MacOS também!
 
 ## Instalando o .NET Core 
-Instalar o SDK do .Net Core em um MacOS chega a ser tão fácil que fica chato, mas antes de tudo você deve conferir se o seu sistema MacOS tem suporte para rodar o .NET Core versão 3.1 que será utilizado nesse projeto, nesse [link](https://docs.microsoft.com/pt-br/dotnet/core/install/MacOS) você pode ver uma tabela com às versões do .Net Core suportada pro cada versão do MacOS. 
+Instalar o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core em um MacOS chega a ser tão fácil que fica chato, mas antes de tudo você deve conferir se o seu sistema MacOS tem suporte para rodar o .NET Core versão 3.1 que será utilizado nesse projeto, nesse [link](https://docs.microsoft.com/pt-br/dotnet/core/install/MacOS) você pode ver uma tabela com às versões do .Net Core suportada pro cada versão do MacOS. 
 
 Caso o seu sistema MacOS tenha suporte a essa versão do .NET Core 3.1, você pode acessar o site oficial do .NET Core 3.1 e fazer o download do arquivo de instalação para o seu sistema MacOS.
 
@@ -21,7 +21,7 @@ Esse comando deve solicitar qual é a versão do .Net Core instalada na sua máq
 > Nota: Lembre-se que você deve iniciar um terminal após a instalação do dotnet, se não o shell não vai encontra a variável de ambiente dotnet
 
 ## Instalando o Visual Studio para Mac
-A Microsoft disponibilizar uma versão da sua IDE para MacOS, você pode efetuar o download dessa versão acessado o site oficial do Visual Studio
+A Microsoft disponibilizar uma versão da sua [IDE](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado) para MacOS, você pode efetuar o download dessa versão acessado o site oficial do Visual Studio
 
 [https://visualstudio.microsoft.com/pt-br/](https://visualstudio.microsoft.com/pt-br/)
 
