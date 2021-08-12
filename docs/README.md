@@ -7,7 +7,7 @@
   - [2.2 - Sistemas Operacionais](/docs/2-Ambiente/2-Sistemas-Operacionais.md)
   - [2.3 - Windows](/docs/2-Ambiente/3-Windows.md)
   - [2.4 - Linux](/docs/2-Ambiente/4-Linux.md)
-  - [2.5 - MacOS](/docs/2-Ambiente/5-MacOS.mb)
+  - [2.5 - MacOS](/docs/2-Ambiente/5-MacOS.md)
   - [2.6 - Online](/docs/2-Ambiente/6-Online.md)
 - [3 - Básico](/docs/3-Básico)
   - [3.1 - Declaração de variáveis](/docs/3-Básico/01-Declaração-de-variáveis.md)
