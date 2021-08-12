@@ -24,7 +24,7 @@ Além disso, é possível definir qual o tipo de projeto você pretende criar. [
 
 ## Executando seu projeto:
 
-Após criado seu projeto você pode executa-lo pela sua IDE ou utilizando o comando ``dotnet run`` em seu terminal.
+Após criado seu projeto você pode executá-lo pela sua IDE ou utilizando o comando ``dotnet run`` em seu terminal.
 
 ## Alternativas de IDE
 
