@@ -97,3 +97,36 @@ public class MotorGasolina : Motor
 Feito isso caso uma classe deseje extender seus atributos e comportamentos irá ocasionar um erro no momento do build.
 O erro que irá aparecer no console será;
 ``'MotorGasolina': cannot derive from sealed type 'Motor'``
+
+## Classes Genéricas
+
+No C# é possível realizar a criação de classes genéricas, que podem utilizam parâmetros especificados em sua assinatura, exigindo que o parâmetro passado para a classe seja de determinado tipo ou não.
+Neste caso abaixo veremos uma especificação genérica que não exige nenhuma herança da classe que for passada por parâmetro.
+```csharp
+// Definição de um tipo genérico é dado geralmente entre <TipoGenericoAqui>
+public class Motor<TCombustivel>
+{  
+    Ligar(TCombustivel combustivel) {  }
+}
+// Abaixo ele estará passando como parâmetro para a classe `Motor` que espera algum parâmetro que o tipo esperado é a classe Gasolina
+public class MotorGasolina : Motor<Gasolina>
+{  
+}
+```
+No exemplo abaixo, será exigido que todo o parâmetro passado abaixo deverá conter a herança da classe ``Combustivel``. Dentro da classe motor será possível manipular todos os atributos e métodos que forem definidos na classe que for exigida como parametro de entrada que no nosso caso é a ``Combustivel``.
+```csharp
+// Também é possível exigir que a classe que for passada por parâmetro siga uma pré-definição ou seja, que ela derive de uma herança.
+public class Combustivel 
+{
+  public string TipoCombustivel { get; set; }
+}
+// Abaixo a criação de uma classe que exige quem for passado por parâmetro tenha uma herança de Combustivel
+public sealed class Motor<TCombustivel> where TCombustivel : Combustivel
+{  
+    Ligar(TCombustivel combustivel) 
+    {  
+       //Aqui poderá manipular os atributos da classe combustivel
+       Console.WriteLine(combustivel.TipoCombustivel);       
+    }
+}
+```
