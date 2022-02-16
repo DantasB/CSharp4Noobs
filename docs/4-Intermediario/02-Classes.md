@@ -94,7 +94,7 @@ public class MotorGasolina : Motor
 {  
 }
 ```
-Feito isso caso uma classe deseje extender seus atributos e comportamentos irá ocasionar um erro no momento do build.
+Feito isso caso uma classe deseje extender seus atributos e comportamentos irá ocasionar um erro em tempo de compilação.
 O erro que irá aparecer no console será;
 ``'MotorGasolina': cannot derive from sealed type 'Motor'``
 
