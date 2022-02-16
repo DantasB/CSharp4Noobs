@@ -81,3 +81,19 @@ public class Pessoa
   }
 } 
 ```
+
+## Classes sealed
+
+Adicionando a palvra ``sealed`` em uma classe irá impedir que outras classes possam herdar os atributos e métodos desta classe.
+```csharp
+public sealed class Motor
+{  
+}
+
+public class MotorGasolina : Motor
+{  
+}
+```
+Feito isso caso uma classe deseje extender seus atributos e comportamentos irá ocasionar um erro no momento do build.
+O erro que irá aparecer no console será;
+``'MotorGasolina': cannot derive from sealed type 'Motor'``
