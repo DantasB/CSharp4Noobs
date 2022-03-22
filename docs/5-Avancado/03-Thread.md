@@ -4,14 +4,14 @@ Um thread é um pequeno conjunto de instruções projetadas para serem agendadas
 Por exemplo, um programa pode ter uma thread aberta esperando a ocorrência de um evento específico ou executando uma tarefa separada, permitindo que o programa principal execute outras tarefas.
 Um programa é capaz de ter vários threads abertos ao mesmo tempo e os encerra ou suspende depois que a tarefa é concluída ou o programa é fechado.
 
-### Instanciação de um delegate
+### Instanciação de um Thread
 
-Para instanciar um delegate, o método em que o delegate irá referenciar, precisa ser passado como parâmetro, exemplo:
+Exemplo Para instanciar um Thread:
 
 -   _var thread1 = new Thread(NovoMétodoThread);_
     _NovoMétodoThread_ é um método que vai ser rodado em outro thread em primeiro ou segundo plano
 
-### Chamada do delegate
+### Chamada do Thread
 
 Para rodar o Thread, apenas digite o nome do objeto instanciado adicionando .Start os parênteses na frente.
 
