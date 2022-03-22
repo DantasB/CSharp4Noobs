@@ -5,6 +5,7 @@ As instruções condicionais são utilizados quando é trazer lógica de maneira
 é importante frizar que, em C# existem muitas maneiras de utilizar estas instruções e, abaixo abordaremos algumas delas:
 
 ## if-else
+
 Uma instrução if identifica qual instrução executar com base no valor de uma expressão booleana.
 
 é possível utilizar simplesmente uma função if-else sem mais nem menos.
@@ -32,11 +33,12 @@ public class Program
 ```
 
 também é possível utilizar if's e else's aninhados.
+
 ### Exemplo:
 
 ```csharp
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -60,7 +62,7 @@ public class Program
 			}
 			else
 			{
-				Console.WriteLine("não sei o valor da variável value");				
+				Console.WriteLine("não sei o valor da variável value");
 			}
 		}
 		else
@@ -80,7 +82,7 @@ public class Program
 			}
 			else
 			{
-				Console.WriteLine("não sei o valor da variável value");				
+				Console.WriteLine("não sei o valor da variável value");
 			}
 		}
 	}
@@ -88,11 +90,12 @@ public class Program
 ```
 
 ## Informação nerd extra:
-é possível escrever a instrução if-else em uma linha, utilizando o operador ``?:`` 
+
+é possível escrever a instrução if-else em uma linha, utilizando o operador `?:`
 
 Este operador funciona da seguinte forma:
 
-``<condição> ? <consequencia> : <alternativa>``
+`<condição> ? <consequencia> : <alternativa>`
 
 Se a condição for true, a consequencia ocorrerá. Caso contrário, a alternativa ocorrerá.
 
@@ -119,15 +122,13 @@ Uma instrução Switch-Case identifica qual instrução executar com base no val
 
 No geral o Switch-Case é utilizado como alternativa ao if-else, muitas vezes por organização de código quando há muitos casos aninhados.
 
-
 ### Estrutura geral de um switch-case:
 
-- Switch(valor): A variável valor será responsável por definir qual case será acessado.
-- Case 1: caso a variável valor seja igual a 1, entraremos neste case.
-- Default: caso não haja nenhum case referente é variável valor, este caso será executado.
+-   Switch(valor): A variável valor será responsável por definir qual case será acessado.
+-   Case 1: caso a variável valor seja igual a 1, entraremos neste case.
+-   Default: caso não haja nenhum case referente é variável valor, este caso será executado.
 
-Note também que, ao final de cada case, é necessário haver ``return ou break``.
-
+Note também que, ao final de cada case, é necessário haver `return ou break`.
 
 ### Exemplo:
 

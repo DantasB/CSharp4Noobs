@@ -17,12 +17,13 @@ Agora, o J++, a Microsoft teve que repensar a estratégia de como lidar com dife
 
 Esta então nova linguagem teve seu design baseado em diversas outras linguagens do mercado como Java, C, C++, Smallwalk, Delphi e VB, com a ideia de estudar os problemas existentes e incorporar soluções.
 
-### Hello World 
+### Hello World
 
 #### <= C# 8
+
 ```csharp
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -33,6 +34,7 @@ public class Program
 ```
 
 #### >= C# 9
+
 ```csharp
 System.Console.WriteLine("Hello World");
 ```

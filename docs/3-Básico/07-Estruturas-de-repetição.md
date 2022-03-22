@@ -1,13 +1,14 @@
 # 3.7 Estruturas de Repetição
-Os comandos de repetição são um recurso que permite que um certo trecho do código de um programa dentro deste loop seja repetido um certo número de vezes. 
+
+Os comandos de repetição são um recurso que permite que um certo trecho do código de um programa dentro deste loop seja repetido um certo número de vezes.
 Facilitando gerar códigos mais organizados e lógicas mais complexas.
 
 Na liguagem C# existem três comandos de repetição: while, do-while e for.
 
 ## While
 
-O ``While`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Esta estrutura irá checar primeiro a condição e, caso a condição seja ``true`` o código será executado
+O `While` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Esta estrutura irá checar primeiro a condição e, caso a condição seja `true` o código será executado
 
 ### Exemplo
 
@@ -44,10 +45,11 @@ Depois de compilado, o resultado será:
 
 ## Do-While
 
-O ``Do-While`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Contudo, diferente do ``While`` regular, esta estrutura irá rodar o código primeiro, e depois verificar a condição.
+O `Do-While` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Contudo, diferente do `While` regular, esta estrutura irá rodar o código primeiro, e depois verificar a condição.
 
 ### Exemplo
+
 ```csharp
 using System;
 
@@ -80,12 +82,12 @@ Depois de compilado, o resultado será:
 4
 ```
 
-Neste exemplo específico, o resultado para ambos os loops é igual. Contudo é necessário ter cuidado com a lógica utilizada para que não seja obtido algum resultado inesperado. 
+Neste exemplo específico, o resultado para ambos os loops é igual. Contudo é necessário ter cuidado com a lógica utilizada para que não seja obtido algum resultado inesperado.
 
 ## For
 
-O ``for`` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
-Esta estrutura irá checar primeiro a condição e, caso a condição seja ``true`` o código será executado
+O `for` é uma estrutura de loop que funciona com um valor condicional instanciado fora do loop.
+Esta estrutura irá checar primeiro a condição e, caso a condição seja `true` o código será executado
 
 ### Exemplo
 
@@ -117,7 +119,7 @@ Depois de compilado, o resultado será:
 
 ## Foreach
 
-O ``foreach`` é uma estrutura de loop que funciona um pouco diferente das outras estruturas.
+O `foreach` é uma estrutura de loop que funciona um pouco diferente das outras estruturas.
 Esta função em específico irá iterar cada objeto que está dentro de outro objeto maior. (será melhor observando o exemplo abaixo)
 
 ### Exemplo

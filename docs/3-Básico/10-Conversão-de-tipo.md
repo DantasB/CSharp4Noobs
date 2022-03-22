@@ -2,7 +2,7 @@
 
 Como pudemos observar em alguns exemplos anteriores, é possível fazer a conversão de um tipo (int, string, bool) para outro tipo em C#.
 
-Aquela maneira que vimos não é a única. Veremos abaixo outras maneiras de fazer o ``Typecast``
+Aquela maneira que vimos não é a única. Veremos abaixo outras maneiras de fazer o `Typecast`
 
 é importante frizar, que esta linguagem possui duas maneiras genéricas:
 
@@ -11,6 +11,7 @@ Aquela maneira que vimos não é a única. Veremos abaixo outras maneiras de faz
 As conversoes implicitas, como o proprio nome diz, ocorrem quando nao é explicitado (fica evidente) o tipo da conversão.
 
 Exmplo:
+
 ```csharp
 float x = 10.44f
 
@@ -18,7 +19,9 @@ int y = x; //Conversao implicita, onde o valor de y é a parte inteira de x, ou 
 ```
 
 ### Boxing
-Esse tipo de conversão ocorre quando o resultado da expressão é atribuido a um tipo ``pai``, normalmente, ``object``.
+
+Esse tipo de conversão ocorre quando o resultado da expressão é atribuido a um tipo `pai`, normalmente, `object`.
+
 ```csharp
 // <= C# 8
 Pessoa p = new Pessoa();
@@ -28,9 +31,10 @@ Pessoa p = new();
 object obj = p; //Boxing
 ```
 
-Como o proprio nome já diz, é feito um ``empacotamento`` do objeto, e como todos os tipos derivam de ``object``, logo, eu posso converter implicitamente ``Pessoa`` para ``object``.
+Como o proprio nome já diz, é feito um `empacotamento` do objeto, e como todos os tipos derivam de `object`, logo, eu posso converter implicitamente `Pessoa` para `object`.
 
-A mesma coisa vale se ``Pessoa`` fosse uma derivação ``Mamifero``, entao:
+A mesma coisa vale se `Pessoa` fosse uma derivação `Mamifero`, entao:
+
 ```csharp
 //declaraçao da classe pessoa
 class Pessoas : Mamifero {}
@@ -66,28 +70,30 @@ De float -> double.
 Sao todas as implícitas, e outras conversoes onde ficam explicitados os tipos da conversão.
 
 ### Expressao Cast (T)x
+
 Essa expressao tenta conversão dado objeto em determinado tipo, e caso essa conversão nao seja possível, uma exception será disparada, veja:
+
 ```csharp
 using System;
-					
+
 public class Program
 {
 	public static void Main()
 	{
 		var x = "10";
-		
+
 		object y = x;
 		int i = 0;
-		
+
 		try
 		{
 			i = (int)y; //Unboxing
 		}
-		catch 
+		catch
 		{
 			Console.WriteLine("deu ruim");
 		}
-		
+
 		Console.WriteLine($"i = {i}");
 	}
 }
@@ -95,9 +101,10 @@ public class Program
 //Saida:
 // deu ruim
 // i = 0
-``` 
+```
 
 Alterando o valor de x para 10, temos:
+
 ```csharp
 var x = 10;
 
@@ -106,30 +113,33 @@ var x = 10;
 ```
 
 ### Operador AS
+
 Este operador faz o mesmo papel da expressão cast, com uma diferença de nunca disparar exception.
 
 Sintaxe:
+
 ```csharp
 var resultado = obj as T
 ```
 
-Sendo ``obj`` qualquer tipo que permita ser nulo e ``T`` o tipo do objeto que tentará ser convertido (também deve adimitir ser nulo).
+Sendo `obj` qualquer tipo que permita ser nulo e `T` o tipo do objeto que tentará ser convertido (também deve adimitir ser nulo).
 
-Caso a conversão nao seja possivel, o valor retornado será nulo, veja o exemplo anterior com o ``as``:
+Caso a conversão nao seja possivel, o valor retornado será nulo, veja o exemplo anterior com o `as`:
+
 ```csharp
 using System;
-					
+
 public class Program
 {
 	public static void Main()
 	{
 		var x = "10";
-		
+
 		object y = x;
 		int? i = null;
-		
+
 		i = y as int?; //Unboxing
-		
+
 		Console.WriteLine($"i = {i}");
 	}
 }
@@ -139,6 +149,7 @@ public class Program
 ```
 
 Alterando o valor de x para 10, temos:
+
 ```csharp
 var x = 10;
 

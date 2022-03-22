@@ -5,6 +5,7 @@ As classes em uma linguagem orientada a objetos, no caso o C#, podem ser pensada
 Representa um conjunto de propriedades ou métodos que são comuns para o objeto que está sendo pensado.
 
 Uma classe básica pode ser declarada do seguinte modo:
+
 ```csharp
 // [modificador de acesso] - [palavra chave 'class'] - [nome da classe]
 public class Pessoa
@@ -26,17 +27,17 @@ Caso não se declare o construtor, ficará implícito que a classe contem um con
 public class Pessoa
 {
   // Construtor padrão
-  public Pessoa() 
+  public Pessoa()
   {
   }
-  
+
   // Construtor com 1 parâmetro
-  public Pessoa(string nome) 
+  public Pessoa(string nome)
   {
   }
 
   // Construtor com 2 parâmetros
-  public Pessoa(string nome, int idade) 
+  public Pessoa(string nome, int idade)
   {
   }
 }
@@ -44,7 +45,7 @@ public class Pessoa
 
 ## Classes Estáticas
 
-A inclusão da palavra chave ``static`` na declaração da classe define que ela não poderá ser instanciada e todos os membros (métodos, propriedades) também deverão ser estáticos. De resto, é basicamente uma classe comum.
+A inclusão da palavra chave `static` na declaração da classe define que ela não poderá ser instanciada e todos os membros (métodos, propriedades) também deverão ser estáticos. De resto, é basicamente uma classe comum.
 
 ```csharp
 // Definição da classe
@@ -66,7 +67,7 @@ São utilizados para inicializar dados estáticos na classe, ou para executar al
 
 Os construtores estáticos são chamados antes de qualquer construtor da instância ou membro é acessado.
 
-Independente da classe ser estática ou não, pode ter somente 1 construtor estático, enquanto uma classe não-estática podem ter quantos construtores de instância forem necessários. 
+Independente da classe ser estática ou não, pode ter somente 1 construtor estático, enquanto uma classe não-estática podem ter quantos construtores de instância forem necessários.
 
 ```csharp
 public class Pessoa
@@ -79,54 +80,59 @@ public class Pessoa
   {
     idade = 20;
   }
-} 
+}
 ```
 
 ## Classes sealed
 
-Adicionando a palvra ``sealed`` em uma classe irá impedir que outras classes possam herdar os atributos e métodos desta classe.
+Adicionando a palvra `sealed` em uma classe irá impedir que outras classes possam herdar os atributos e métodos desta classe.
+
 ```csharp
 public sealed class Motor
-{  
+{
 }
 
 public class MotorGasolina : Motor
-{  
+{
 }
 ```
+
 Feito isso caso uma classe deseje extender seus atributos e comportamentos irá ocasionar um erro em tempo de compilação.
 O erro que irá aparecer no console será;
-``'MotorGasolina': cannot derive from sealed type 'Motor'``
+`'MotorGasolina': cannot derive from sealed type 'Motor'`
 
 ## Classes Genéricas
 
 No C# é possível realizar a criação de classes genéricas, que podem utilizam parâmetros especificados em sua assinatura, exigindo que o parâmetro passado para a classe seja de determinado tipo ou não.
 Neste caso abaixo veremos uma especificação genérica que não exige nenhuma herança da classe que for passada por parâmetro.
+
 ```csharp
 // Definição de um tipo genérico é dado geralmente entre <TipoGenericoAqui>
 public class Motor<TCombustivel>
-{  
+{
     Ligar(TCombustivel combustivel) {  }
 }
 // Abaixo ele estará passando como parâmetro para a classe `Motor` que espera algum parâmetro que o tipo esperado é a classe Gasolina
 public class MotorGasolina : Motor<Gasolina>
-{  
+{
 }
 ```
-No exemplo abaixo, será exigido que todo o parâmetro passado abaixo deverá conter a herança da classe ``Combustivel``. Dentro da classe motor será possível manipular todos os atributos e métodos que forem definidos na classe que for exigida como parametro de entrada que no nosso caso é a ``Combustivel``.
+
+No exemplo abaixo, será exigido que todo o parâmetro passado abaixo deverá conter a herança da classe `Combustivel`. Dentro da classe motor será possível manipular todos os atributos e métodos que forem definidos na classe que for exigida como parametro de entrada que no nosso caso é a `Combustivel`.
+
 ```csharp
 // Também é possível exigir que a classe que for passada por parâmetro siga uma pré-definição ou seja, que ela derive de uma herança.
-public class Combustivel 
+public class Combustivel
 {
   public string TipoCombustivel { get; set; }
 }
 // Abaixo a criação de uma classe que exige quem for passado por parâmetro tenha uma herança de Combustivel
 public sealed class Motor<TCombustivel> where TCombustivel : Combustivel
-{  
-    Ligar(TCombustivel combustivel) 
-    {  
+{
+    Ligar(TCombustivel combustivel)
+    {
        //Aqui poderá manipular os atributos da classe combustivel
-       Console.WriteLine(combustivel.TipoCombustivel);       
+       Console.WriteLine(combustivel.TipoCombustivel);
     }
 }
 ```

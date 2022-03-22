@@ -1,7 +1,7 @@
 # 3.16 Namespace
 
-Os namespaces, em C#, tendem a ser utilizados para organizar suas classes e projetos dentro de uma mesma solução. 
-Somente para ilustrar ao leitor, a maioria dos aplicativo do C#, começam com uma seção de ``using``.
+Os namespaces, em C#, tendem a ser utilizados para organizar suas classes e projetos dentro de uma mesma solução.
+Somente para ilustrar ao leitor, a maioria dos aplicativo do C#, começam com uma seção de `using`.
 Esta seção lista todos os namespaces que o aplicativo usará com frequência, evitando que o programador repita o nome a cada vez que o método contido for utilizado.
 
 Podemos observar melhor com o exemplo abaixo:
@@ -15,12 +15,12 @@ public class Program
 	{
 		return a+b;
 	}
-	
+
 	public void Main()
 	{
 		Console.WriteLine(somador(10,20));
 		System.Console.WriteLine(somador(10,20)); //Também é possível executar o código acima, desta forma, fazendo com que não seja necessário adicionar a diretiva using System
-	}	
+	}
 }
 
 ```
@@ -55,12 +55,12 @@ public class Program
 	public void Main()
 	{
 		Console.WriteLine(FuncoesBasicas.Somador(10,20));
-	}	
+	}
 }
 
 ```
 
-é importante ressaltar também que a criação de namespaces, não se limitam a um só por código ou projeto. Também é possível criar namespaces ``aninhados``, onde, neste caso, teremos que acessar o namespace utilizando ``ponto(.)``.
+é importante ressaltar também que a criação de namespaces, não se limitam a um só por código ou projeto. Também é possível criar namespaces `aninhados`, onde, neste caso, teremos que acessar o namespace utilizando `ponto(.)`.
 
 Observe o exemplo abaixo:
 
@@ -85,14 +85,14 @@ namespace Projeto
 	//Namespace dentro do namespace Projeto.
 	namespace DiasDaSemana
 	{
-		public enum Dias { 
+		public enum Dias {
 			Dom,
 			Seg,
 			Ter,
 			Qua,
 			Qui,
 			Sex,
-			Sab 
+			Sab
 		};
 	}
 }
@@ -103,6 +103,6 @@ public class Program
 	{
 		Console.WriteLine(FuncoesBasicas.Somador(10,20));
 		Console.WriteLine(Dias.Sab);
-	}	
+	}
 }
 ```

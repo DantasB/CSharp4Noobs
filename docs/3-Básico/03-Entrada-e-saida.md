@@ -1,11 +1,11 @@
 # 3.3 Entrada e Saída
 
 Para você observar alguns resultados em C# ou receber entradas de usuários, precisamos utilizar funções padrões (Console.WriteLine() e Console.ReadLine()).
-Lembrando que, é necessário incluir a biblioteca no início do programa ``using System`` para que estas funções possam ser utilizadas.
+Lembrando que, é necessário incluir a biblioteca no início do programa `using System` para que estas funções possam ser utilizadas.
 
 ## Console.WriteLine()
 
-A função ``Console.WriteLine()`` exibe um ou mais dados na tela. Dependendo do número de parámetros passados, separados por vírgula.
+A função `Console.WriteLine()` exibe um ou mais dados na tela. Dependendo do número de parámetros passados, separados por vírgula.
 
 Esta função, diferente de algumas linguagens, pode imprimir qualquer tipo, ou até mesmo ser chamada sem parámetro nenhum, imprimindo assim uma linha vazia.
 
@@ -70,8 +70,7 @@ Depois de compilado, o resultado será:
 
 ## Console.ReadLine()
 
-A função ``Console.ReadLine()`` para a execução do programa até o usuário escrever um argumento e retorna uma string com o que foi inputado.
-
+A função `Console.ReadLine()` para a execução do programa até o usuário escrever um argumento e retorna uma string com o que foi inputado.
 
 ### Exemplo:
 
@@ -99,11 +98,10 @@ Qual o seu Nome?
 Olá, Bruno. Seja bem-vindo ao curso de CSharp.
 ```
 
-
 Existem também outros métodos menos utilizados. Não abordaremos neste curso, porém é interessante lerem a respeito:
 
-Função		      | O que faz
--------------     | -------------
-Console.Read()    | Lá somente 1 char e retorna um ``int`` com o valor ASCII deste Char.
-Console.ReadKey() | Lá a tecla digitada pelo usuário e retorna um ``ConsoleKeyInfo`` que é um objeto, cujo parámetro ``.key``, é o nome desta tecla.
-Console.Write()   | Uma outra forma de executar o WriteLine, porém com algumas peculiaridades.
+| Função            | O que faz                                                                                                                    |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- |
+| Console.Read()    | Lá somente 1 char e retorna um `int` com o valor ASCII deste Char.                                                           |
+| Console.ReadKey() | Lá a tecla digitada pelo usuário e retorna um `ConsoleKeyInfo` que é um objeto, cujo parámetro `.key`, é o nome desta tecla. |
+| Console.Write()   | Uma outra forma de executar o WriteLine, porém com algumas peculiaridades.                                                   |
