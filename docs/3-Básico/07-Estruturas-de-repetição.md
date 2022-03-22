@@ -12,7 +12,7 @@ Esta estrutura irá checar primeiro a condição e, caso a condição seja `true
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -50,7 +50,7 @@ Contudo, diferente do `While` regular, esta estrutura irá rodar o código prime
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -91,7 +91,7 @@ Esta estrutura irá checar primeiro a condição e, caso a condição seja `true
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -124,7 +124,7 @@ Esta função em específico irá iterar cada objeto que está dentro de outro o
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program

@@ -12,7 +12,7 @@ Uma instrução if identifica qual instrução executar com base no valor de uma
 
 ### Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -36,7 +36,7 @@ também é possível utilizar if's e else's aninhados.
 
 ### Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -101,7 +101,7 @@ Se a condição for true, a consequencia ocorrerá. Caso contrário, a alternati
 
 ### Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -132,7 +132,7 @@ Note também que, ao final de cada case, é necessário haver `return ou break`.
 
 ### Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program

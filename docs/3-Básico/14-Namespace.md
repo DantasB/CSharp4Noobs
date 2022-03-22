@@ -6,7 +6,7 @@ Esta seção lista todos os namespaces que o aplicativo usará com frequência, 
 
 Podemos observar melhor com o exemplo abaixo:
 
-```csharp
+```cs
 using System; //Neste caso fazemos uma referência ao namespace System.
 
 public class Program
@@ -35,7 +35,7 @@ namespace nome_do_namespace {
 
 Ou seja, é possível encapsular toda a parte de soma em um namespace único e utilizar em outro código de maneira mais organizada. Como podemos observar abaixo:
 
-```csharp
+```cs
 using System;
 using Calculadora;
 
@@ -64,7 +64,7 @@ public class Program
 
 Observe o exemplo abaixo:
 
-```csharp
+```cs
 using System;
 using Projeto.Calculadora; //Acessa o namespace Calculadora que se encontra dentro do projeto.
 using Projeto.DiasDaSemana; //Acessa o namespace DiasDaSemana que se encontra dentro do projeto.

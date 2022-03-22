@@ -30,7 +30,7 @@ A diferença das condições condicionais para as bit a bit são as seguites:
 
 ## Exemplos:
 
-```csharp
+```cs
 using System;
 
 public class Program

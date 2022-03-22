@@ -21,7 +21,7 @@ Esta então nova linguagem teve seu design baseado em diversas outras linguagens
 
 #### <= C# 8
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -35,7 +35,7 @@ public class Program
 
 #### >= C# 9
 
-```csharp
+```cs
 System.Console.WriteLine("Hello World");
 ```
 

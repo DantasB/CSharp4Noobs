@@ -11,7 +11,7 @@ As funções, diferentes de outras linguagens C, não precisa ser definida neces
 
 ## Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -32,7 +32,7 @@ O resultado impresso neste caso será `30`.
 
 Note, neste caso, que a Main não está mais com o modificador `static` porém, não teria problema algum de utilizar este modificador, contudo que adicionassemos este modificador a nova função criada, como podemos observar abaixo:
 
-```csharp
+```cs
 using System;
 
 public class Program

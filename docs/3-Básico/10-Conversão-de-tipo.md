@@ -12,7 +12,7 @@ As conversoes implicitas, como o proprio nome diz, ocorrem quando nao é explici
 
 Exmplo:
 
-```csharp
+```cs
 float x = 10.44f
 
 int y = x; //Conversao implicita, onde o valor de y é a parte inteira de x, ou seja, 10
@@ -22,7 +22,7 @@ int y = x; //Conversao implicita, onde o valor de y é a parte inteira de x, ou 
 
 Esse tipo de conversão ocorre quando o resultado da expressão é atribuido a um tipo `pai`, normalmente, `object`.
 
-```csharp
+```cs
 // <= C# 8
 Pessoa p = new Pessoa();
 // >= C# 9
@@ -35,7 +35,7 @@ Como o proprio nome já diz, é feito um `empacotamento` do objeto, e como todos
 
 A mesma coisa vale se `Pessoa` fosse uma derivação `Mamifero`, entao:
 
-```csharp
+```cs
 //declaraçao da classe pessoa
 class Pessoas : Mamifero {}
 
@@ -73,7 +73,7 @@ Sao todas as implícitas, e outras conversoes onde ficam explicitados os tipos d
 
 Essa expressao tenta conversão dado objeto em determinado tipo, e caso essa conversão nao seja possível, uma exception será disparada, veja:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -105,7 +105,7 @@ public class Program
 
 Alterando o valor de x para 10, temos:
 
-```csharp
+```cs
 var x = 10;
 
 //Saida:
@@ -118,7 +118,7 @@ Este operador faz o mesmo papel da expressão cast, com uma diferença de nunca 
 
 Sintaxe:
 
-```csharp
+```cs
 var resultado = obj as T
 ```
 
@@ -126,7 +126,7 @@ Sendo `obj` qualquer tipo que permita ser nulo e `T` o tipo do objeto que tentar
 
 Caso a conversão nao seja possivel, o valor retornado será nulo, veja o exemplo anterior com o `as`:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -150,7 +150,7 @@ public class Program
 
 Alterando o valor de x para 10, temos:
 
-```csharp
+```cs
 var x = 10;
 
 //Saida:

@@ -12,7 +12,7 @@ Esta instrução possui a seguinte estrutura:
 
 ## Exemplos:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -35,7 +35,7 @@ public class Program
 }
 ```
 
-```csharp
+```cs
 using System;
 
 public class Program

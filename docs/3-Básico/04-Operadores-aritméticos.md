@@ -6,7 +6,7 @@ Os operadores matemáticos são de importancia fundamental para qualquer tipo de
 
 Como o nome já diz, é um operador que realiza uma soma, ele pode ser atribuido dentro de variáveis ou realizando soma de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -29,7 +29,7 @@ Note que, com o conhecimento que possuimos de variáveis, também podemos defini
 
 Como o nome já diz, é um operador que realiza uma subtração, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -56,7 +56,7 @@ public class Program
 
 Como o nome já diz, é um operador que realiza uma multiplicação, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -78,7 +78,7 @@ public class Program
 
 Como o nome já diz, é um operador que realiza uma divisão, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -110,7 +110,7 @@ Portanto, tenha atenção com a forma que você escolhe explicitar a sua saída.
 
 Esse operador retorna o resto de uma divisão. O exemplo abaixo fica mais simples de entender.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -130,7 +130,7 @@ public class Program
 
 Se uma variável for subtrair uma variável com 1, pode-se fazer das seguintes maneiras:
 
-```csharp
+```cs
 using System;
 
 public class Program

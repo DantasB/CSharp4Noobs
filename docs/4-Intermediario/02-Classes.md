@@ -6,7 +6,7 @@ Representa um conjunto de propriedades ou métodos que são comuns para o objeto
 
 Uma classe básica pode ser declarada do seguinte modo:
 
-```csharp
+```cs
 // [modificador de acesso] - [palavra chave 'class'] - [nome da classe]
 public class Pessoa
 {
@@ -23,7 +23,7 @@ Caso não se declare o construtor, ficará implícito que a classe contem um con
 
 É possível declarar múltiplos construtores com parâmetros diferente em uma mesma classe.
 
-```csharp
+```cs
 public class Pessoa
 {
   // Construtor padrão
@@ -47,7 +47,7 @@ public class Pessoa
 
 A inclusão da palavra chave `static` na declaração da classe define que ela não poderá ser instanciada e todos os membros (métodos, propriedades) também deverão ser estáticos. De resto, é basicamente uma classe comum.
 
-```csharp
+```cs
 // Definição da classe
 public static class Pessoa
 {
@@ -56,7 +56,7 @@ public static class Pessoa
 
 Para chamar uma classe estática, é necessário utilizar seu nome, como no exemplo abaixo:
 
-```csharp
+```cs
 // [nome da classe].[metodo|propriedade]
 Pessoa.MetodoQualquer();
 ```
@@ -69,7 +69,7 @@ Os construtores estáticos são chamados antes de qualquer construtor da instân
 
 Independente da classe ser estática ou não, pode ter somente 1 construtor estático, enquanto uma classe não-estática podem ter quantos construtores de instância forem necessários.
 
-```csharp
+```cs
 public class Pessoa
 {
   // campo estático
@@ -87,7 +87,7 @@ public class Pessoa
 
 Adicionando a palvra `sealed` em uma classe irá impedir que outras classes possam herdar os atributos e métodos desta classe.
 
-```csharp
+```cs
 public sealed class Motor
 {
 }
@@ -106,7 +106,7 @@ O erro que irá aparecer no console será;
 No C# é possível realizar a criação de classes genéricas, que podem utilizam parâmetros especificados em sua assinatura, exigindo que o parâmetro passado para a classe seja de determinado tipo ou não.
 Neste caso abaixo veremos uma especificação genérica que não exige nenhuma herança da classe que for passada por parâmetro.
 
-```csharp
+```cs
 // Definição de um tipo genérico é dado geralmente entre <TipoGenericoAqui>
 public class Motor<TCombustivel>
 {
@@ -120,7 +120,7 @@ public class MotorGasolina : Motor<Gasolina>
 
 No exemplo abaixo, será exigido que todo o parâmetro passado abaixo deverá conter a herança da classe `Combustivel`. Dentro da classe motor será possível manipular todos os atributos e métodos que forem definidos na classe que for exigida como parametro de entrada que no nosso caso é a `Combustivel`.
 
-```csharp
+```cs
 // Também é possível exigir que a classe que for passada por parâmetro siga uma pré-definição ou seja, que ela derive de uma herança.
 public class Combustivel
 {

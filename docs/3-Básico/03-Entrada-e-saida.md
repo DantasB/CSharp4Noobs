@@ -11,7 +11,7 @@ Esta função, diferente de algumas linguagens, pode imprimir qualquer tipo, ou 
 
 ### Exemplos:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -44,7 +44,7 @@ vez.
 
 Além disso, é possível formatar valores dentro da string, passando assim multiplos parámetros.
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -74,7 +74,7 @@ A função `Console.ReadLine()` para a execução do programa até o usuário es
 
 ### Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program

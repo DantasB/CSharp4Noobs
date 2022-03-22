@@ -30,14 +30,14 @@ Essa paravra-chave do C# é utilizada para 2 contextos.
 
 1. Puramente sintático - ou seja, quando voce utiliza **var** no seu código, o tipo atribuido é interpretado pelo compilador pelo resultado da expressao de atribuiçao, ex:
 
-```csharp
+```cs
 var @int = 10; // isso é entendido pelo compilador como um numero inteiro (int)
 var @double = 10.0 // este é visto como o tipo double, ja que nao foi explicitado o tipo flutuante (D, d, m, M, f, F) repectivamente double, decimal e float
 ```
 
 2. Tipos anonimos - isso ocorre quando o resultado da expressao de atribuiçao não possui um tipo explicitado, e o compilador é o responsavel por gerar um tipo em tempo de compilação, ex:
 
-```csharp
+```cs
 var value = new { IsValue = true };
 
 //um exemplo de como é para compilador:

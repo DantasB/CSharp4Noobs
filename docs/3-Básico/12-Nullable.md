@@ -16,7 +16,7 @@ Por exemplo o tipo booleano. É esperado que o resultado dele seja true ou false
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -52,7 +52,7 @@ Este operador não avaliará o operando do lado direito se o operando esquerdo f
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program

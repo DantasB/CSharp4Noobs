@@ -22,7 +22,7 @@ Abaixo veremos alguns exemplos de como instanciar um array.
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program

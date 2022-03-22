@@ -16,7 +16,7 @@ No C#, temos quatro tipos de modificadores
 
 A omissão do modificador de acesso na declaração de uma classe deixará implícito que o acesso será do tipo **internal**.
 
-```csharp
+```cs
 // O tipo de acesso será do tipo internal
 class Aluno
 {
@@ -25,7 +25,7 @@ class Aluno
 
 A omissão do modificador de acesso na declaração de um membro deixará implícito que o acesso será do tipo **private**.
 
-```csharp
+```cs
 public class Aluno
 {
   // O tipo de acesso deste método será private

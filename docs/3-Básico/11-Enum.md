@@ -4,7 +4,7 @@ Uma enumeração é um conjunto de inteiros constantes nomeados. Um tipo `enumer
 
 A estrutura básica de um enum em c# é da seguinte forma:
 
-```csharp
+```cs
 enum <nome do enum> {
    Valor_1,
    Valor_2,
@@ -15,7 +15,7 @@ enum <nome do enum> {
 
 Cada Valor, pode ser visto na verdade como um inteiro, logo, se fizermos: `(int)Valor_1` Obteremos o inteiro 0. Observaremos isso melhor abaixo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -53,7 +53,7 @@ Uma observação interessante, é que, para evitar possíveis problemas de ordem
 
 Podemos observar melhor abaixo:
 
-```csharp
+```cs
 enum Dias {
 	Dom = 0,
 	Seg = 1,
