@@ -1,6 +1,6 @@
 # 5.2 Delegates
 
-Um delegate é uma referência a um método, ou seja, podemos chamar métodos através de delegates desde que seu tipo de retorno e seus parâmetros sejam convergentes.
+Um delegate é uma referência a um método com a mesma assinatura, ou seja, podemos chamar métodos através de delegates desde que seu tipo de retorno e seus parâmetros sejam convergentes.
 
 Declaração de um delegate:
 
@@ -19,11 +19,11 @@ Para chamar o delegate, apenas digite o nome do objeto instanciado adicionando o
 
 -   _delegate1();_
 
-### Exemplos de código
+## Exemplos
 
 -   _Delegate sem retorno e sem parâmetros_
 
-```
+```csharp
 using System;
 
 namespace testes
@@ -52,7 +52,7 @@ namespace testes
 
 -   _Delegate sem retorno e com parâmetros_
 
-```
+```csharp
 using System;
 
 namespace testes
