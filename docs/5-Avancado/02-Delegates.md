@@ -3,26 +3,27 @@
 Um delegate é uma referência a um método, ou seja, podemos chamar métodos através de delegates desde que seu tipo de retorno e seus parâmetros sejam convergentes.
 
 Declaração de um delegate:
-- *public delegate void MyDelegate();* 
-Onde *void* é o tipo de retorno e *MyDelegate* é o nome do delegate.
+
+-   _public delegate void MyDelegate();_
+    Onde _void_ é o tipo de retorno e _MyDelegate_ é o nome do delegate.
 
 ### Instanciação de um delegate
 
 Para instanciar um delegate, o método em que o delegate irá referenciar, precisa ser passado como parâmetro, exemplo:
 
-- *MyDelegate delegate1 = new MyDelegate(método);*
+-   _MyDelegate delegate1 = new MyDelegate(método);_
 
 ### Chamada do delegate
 
 Para chamar o delegate, apenas digite o nome do objeto instanciado adicionando os parênteses na frente.
 
-- *delegate1();*
+-   _delegate1();_
 
 ### Exemplos de código
 
-- *Delegate sem retorno e sem parâmetros*
+-   _Delegate sem retorno e sem parâmetros_
 
-```
+```cs
 using System;
 
 namespace testes
@@ -41,7 +42,7 @@ namespace testes
         {
             //Instanciando um delegate
             MyDelegate delegate1 = new MyDelegate(Print);
-            
+
             //Chamando o delegate
             delegate1();
         }
@@ -49,9 +50,9 @@ namespace testes
 }
 ```
 
-- *Delegate sem retorno e com parâmetros*
+-   _Delegate sem retorno e com parâmetros_
 
-```
+```cs
 using System;
 
 namespace testes
@@ -70,7 +71,7 @@ namespace testes
         {
             //Instanciando um delegate
             MyDelegate delegate1 = new MyDelegate(Print);
-            
+
             //Chamando o delegate e atribuindo a uma variavel local
             delegate1("Olá, mundo!");
         }
@@ -78,8 +79,9 @@ namespace testes
 }
 ```
 
-- *Delegate com retorno e com parâmetros*
-```
+-   _Delegate com retorno e com parâmetros_
+
+```cs
 using System;
 
 namespace testes
@@ -102,7 +104,7 @@ namespace testes
 
             //Instanciando um delegate
             MyDelegate delegate1 = new MyDelegate(Area);
-            
+
             //Chamando o delegate e atribuindo a uma variavel local
             resultado = delegate1(x, y);
 

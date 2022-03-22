@@ -1,10 +1,10 @@
 # 3.11 Enum
 
-Uma enumeração é um conjunto de inteiros constantes nomeados. Um tipo ``enumerate`` é declarado quando utilizamos ``enum``
+Uma enumeração é um conjunto de inteiros constantes nomeados. Um tipo `enumerate` é declarado quando utilizamos `enum`
 
 A estrutura básica de um enum em c# é da seguinte forma:
 
-```csharp
+```cs
 enum <nome do enum> {
    Valor_1,
    Valor_2,
@@ -13,31 +13,31 @@ enum <nome do enum> {
 };
 ```
 
-Cada Valor, pode ser visto na verdade como um inteiro, logo, se fizermos:  ``(int)Valor_1`` Obteremos o inteiro 0. Observaremos isso melhor abaixo:
+Cada Valor, pode ser visto na verdade como um inteiro, logo, se fizermos: `(int)Valor_1` Obteremos o inteiro 0. Observaremos isso melhor abaixo:
 
-```csharp
+```cs
 using System;
 
 public class Program
 {
-	enum Dias { 
+	enum Dias {
 		Dom,
 		Seg,
 		Ter,
 		Qua,
 		Qui,
 		Sex,
-		Sab 
+		Sab
 	};
 
 	public static void Main()
 	{
 		int comecoDaSemana = (int)Dias.Dom;
 		int fimDaSemana    = (int)Dias.Sab;
-         
+
         Console.WriteLine("Domingo: {0}", comecoDaSemana);
         Console.WriteLine("Sábado: {0}", fimDaSemana);
-		
+
 	}
 }
 ```
@@ -53,15 +53,15 @@ Uma observação interessante, é que, para evitar possíveis problemas de ordem
 
 Podemos observar melhor abaixo:
 
-```csharp
-enum Dias { 
+```cs
+enum Dias {
 	Dom = 0,
 	Seg = 1,
 	Ter = 2,
 	Qui = 4,
 	Qua = 3,
 	Sex = 5,
-	Sab = 6 
+	Sab = 6
 };
 ```
 

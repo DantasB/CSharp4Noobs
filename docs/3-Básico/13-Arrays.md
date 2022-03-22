@@ -4,7 +4,7 @@ Um array, armazena uma coleção de elementos de mesmo tipo, de forma sequencial
 
 Esta estrutura de dados é utilizada para armazenar uma coleção de dados, contudo, as vezes é mais comum pensar em um array como uma coleção de variáveis do mesmo tipo, armazenado em um espaço de memória contíguo.
 
-Em vez de declarar variáveis de maneira individual, ``num0, num1, ...,`numn`` nós declaramos um array de nome ``num`` e nós podemos acessar os números indexando de ``0 até n``, para representar variáveis individuais. 
+Em vez de declarar variáveis de maneira individual, `` num0, num1, ...,`numn `` nós declaramos um array de nome `num` e nós podemos acessar os números indexando de `0 até n`, para representar variáveis individuais.
 
 Todos os arrays consistem em espaços de memória contíguos. O menor endereço corresponde ao primeiro elemento e o maior endereço corresponde ao ultimo elemento.
 
@@ -16,13 +16,13 @@ Uma estrutura geral de um array é dada da seguinte forma:
 
 É importante ressaltar que um array, é utilizado para definir matrizes (unidimensionais, multidimensionais e etc).
 
-Outra ressalva importante é que, ao instanciar um array, o compilador do C# implicitamente inicializa cada elemento do array para um valor ``default`` dependendo do tipo do array. Como por exemplo o caso de um ``int[]`` todos os elementos são inicializados em 0.
+Outra ressalva importante é que, ao instanciar um array, o compilador do C# implicitamente inicializa cada elemento do array para um valor `default` dependendo do tipo do array. Como por exemplo o caso de um `int[]` todos os elementos são inicializados em 0.
 
 Abaixo veremos alguns exemplos de como instanciar um array.
 
 ### Exemplo
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -46,7 +46,7 @@ public class Program
 		int[] copia = valor;
 
 		//Podemos utilizar de exemplo como acessar o elemento de número 92 deste array definida acima.
-		int valorNoArray = valor[2]; 
+		int valorNoArray = valor[2];
 	}
 }
 ```
@@ -94,7 +94,7 @@ public class Program
 											   { { 7, 8, 9 }, { 10, 11, 12 } } };
 
 		//Podemos utilizar de exemplo como acessar o elemento de número 12 desta matriz3D definida acima.
-		int valor = matriz3D3[1,1,2]; 
+		int valor = matriz3D3[1,1,2];
 	}
 }
 ```
@@ -111,6 +111,7 @@ Tal como os exemplos anteriores, é possível criar uma matriz denteada definida
 ```
 
 Diferente dos métodos anteriores, criar uma matriz denteada, não cria o array na memória. Portanto, é necessário fazer o seguinte:
+
 ```
 using System;
 
@@ -122,7 +123,7 @@ public class Program
 
 		//valores.Length é o tamanho deste array. Que neste caso é 5.
 		for (int i = 0; i < valores.Length; i++) {
-			
+
 			//Cada array criado agora é um array de tamanho 4.
 			valores[i] = new int[4];
 		}
@@ -150,7 +151,7 @@ public class Program
 						   new int[]{2,4}, new int[]{ 3, 6 }, new int[]{ 4, 8 } };
 
 		//Podemos utilizar de exemplo como acessar o elemento de número 6 desta matriz3D definida acima.
-		int resultado = valores1[3][1]; 
+		int resultado = valores1[3][1];
 	}
 }
 ```
