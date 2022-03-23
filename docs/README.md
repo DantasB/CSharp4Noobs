@@ -30,4 +30,5 @@
 -   [5 - Avançado](/docs/5-Avancado) <img alt="Badge em desenvolvimento" src="https://img.shields.io/badge/-EM%20DESENVOLVIMENTO-purple">
     -   [5.1 - Coleções](/docs/5-Avancado/01-Colecoes.md)
     -   [5.2 - Delegates](/docs/5-Avancado/02-Delegates.md)
+    -   [5.3 - Threads](/docs/5-Avancado/03-Threads.md)
 -   [6 - Referências](/docs/6-Referências)
