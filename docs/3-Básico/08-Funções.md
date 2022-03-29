@@ -5,14 +5,13 @@ Deste modo, tornamos o código mais limpo e mais fácil de ser entendido.
 
 Para construir uma função, é importante conhecermos a estrutura básica desta, onde podemos olhar abaixo:
 
-``<modificador> <tipo-de-retorno> <nome-do-metodo> <lista-de-parámetros>``
+`<modificador> <tipo-de-retorno> <nome-do-metodo> <lista-de-parámetros>`
 
 As funções, diferentes de outras linguagens C, não precisa ser definida necessariamente antes da função main (porém nada te limita a construir antes).
 
-
 ## Exemplo:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -21,31 +20,30 @@ public class Program
 	{
 		return a+b;
 	}
-	
+
 	public void Main()
 	{
 		Console.WriteLine(somador(10,20));
-	}	
+	}
 }
 ```
 
-O resultado impresso neste caso será ``30``.
+O resultado impresso neste caso será `30`.
 
+Note, neste caso, que a Main não está mais com o modificador `static` porém, não teria problema algum de utilizar este modificador, contudo que adicionassemos este modificador a nova função criada, como podemos observar abaixo:
 
-Note, neste caso, que a Main não está mais com o modificador ``static`` porém, não teria problema algum de utilizar este modificador, contudo que adicionassemos este modificador a nova função criada, como podemos observar abaixo:
-
-```csharp
+```cs
 using System;
 
 public class Program
 {
 	private static int somador(int a, int b) => a + b;
-	
+
 	public static void Main()
 	{
 		Console.WriteLine(somador(10,20));
-	}	
+	}
 }
 ```
 
-O resultado impresso neste caso também será ``30``.
+O resultado impresso neste caso também será `30`.

@@ -1,9 +1,9 @@
 # 3.5 Operadores lógicos e de Comparação
+
 Os operadores lógicos são utilizados quando é necessário usar duas ou mais condições dentro da mesma instrução if para que seja tomada uma única decisão cujo resultado será verdadeiro ou falso.
 
-
 | Operadores lógicos | Significado           |
-|--------------------|-----------------------|
+| ------------------ | --------------------- |
 | &&                 | and condicional       |
 | !                  | not                   |
 | \|\|               | or condicional        |
@@ -19,9 +19,8 @@ A diferença das condições condicionais para as bit a bit são as seguites:
 - Condicional: Só testa o segundo lado se o primeiro lado for verdadeiro (no caso do and) ou falso (no caso do or).
 - Bit a bit: Testa ambos os lados todas as vezes.
 
-
 | Operadores de Comparação | Significado           |
-|--------------------------|-----------------------|
+| ------------------------ | --------------------- |
 | >                        | maior que             |
 | <                        | menor que             |
 | >=                       | maior ou igual        |
@@ -29,10 +28,9 @@ A diferença das condições condicionais para as bit a bit são as seguites:
 | ==                       | igual                 |
 | !=                       | não igual (diferente) |
 
-
 ## Exemplos:
 
-```csharp
+```cs
 using System;
 
 public class Program

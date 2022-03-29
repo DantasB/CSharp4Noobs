@@ -6,9 +6,9 @@ Os operadores matemáticos são de importancia fundamental para qualquer tipo de
 
 Como o nome já diz, é um operador que realiza uma soma, ele pode ser atribuido dentro de variáveis ou realizando soma de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -26,11 +26,12 @@ public class Program
 Note que, com o conhecimento que possuimos de variáveis, também podemos definir os valores separadamentes em variáveis distintas.
 
 ## Operador de subtração
+
 Como o nome já diz, é um operador que realiza uma subtração, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -52,11 +53,12 @@ public class Program
 ```
 
 ## Operador de multiplicação
+
 Como o nome já diz, é um operador que realiza uma multiplicação, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -73,11 +75,12 @@ public class Program
 ```
 
 ## Operador de divisão
+
 Como o nome já diz, é um operador que realiza uma divisão, ele pode ser atribuido dentro de variáveis ou realizando subtrações de duas variáveis, no exemplo abaixo fará mais sentido.
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -97,19 +100,19 @@ Para este caso específico, vamos observar como ficou o output:
 
 ```
 O valor da divisão 10 / 5 = 2
-O valor da divisão 2 / 2 = 
+O valor da divisão 2 / 2 =
 ```
 
-Note que o segundo WriteLine foi escrito errado propositalmente para atentar o leitor a um caso específico, onde há o esquecimento do ``{1}``, o C#, particularmente, não apresentará erro de compilação neste caso e irá imprimir o resultado de maneira incompleta. 
+Note que o segundo WriteLine foi escrito errado propositalmente para atentar o leitor a um caso específico, onde há o esquecimento do `{1}`, o C#, particularmente, não apresentará erro de compilação neste caso e irá imprimir o resultado de maneira incompleta.
 Portanto, tenha atenção com a forma que você escolhe explicitar a sua saída.
 
-
 ## Operador de Mod
+
 Esse operador retorna o resto de uma divisão. O exemplo abaixo fica mais simples de entender.
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -123,12 +126,13 @@ public class Program
 }
 ```
 
-## Operações resumidas 
+## Operações resumidas
+
 Se uma variável for subtrair uma variável com 1, pode-se fazer das seguintes maneiras:
 
-```csharp
+```cs
 using System;
-					
+
 public class Program
 {
 	public static void Main()
@@ -151,7 +155,7 @@ public class Program
 		x = 10;
 		Console.WriteLine(x--); //Antes de ver qual o valor impresso, tente pensar um pouco sobre qual será o resultado!
 		Console.WriteLine(--x);
-		x = 10;		
+		x = 10;
 		Console.WriteLine(--x); //Antes de ver qual o valor impresso, tente pensar um pouco sobre qual será o resultado!
 
 

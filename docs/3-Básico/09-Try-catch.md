@@ -1,6 +1,6 @@
 # 3.9 Try-Catch
 
-A instrução Try-Catch consiste em um bloco ``try`` seguido de um ou mais blocos ``catch`` onde tem como objetivo capturar as exceções e, no geral, imprimir uma mensagem para o usuário.
+A instrução Try-Catch consiste em um bloco `try` seguido de um ou mais blocos `catch` onde tem como objetivo capturar as exceções e, no geral, imprimir uma mensagem para o usuário.
 
 Toda exceção lançada pelo sistema, procura por um bloco catch. Caso não haja, exibirá uma mensagem de exceção sem tratamento para o usuário e interromperá a execução do programa.
 
@@ -12,7 +12,7 @@ Esta instrução possui a seguinte estrutura:
 
 ## Exemplos:
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -31,11 +31,11 @@ public class Program
 			//Neste caso não teremos uma exceção.
 			Console.WriteLine("Um erro foi detectado");
 		}
-	}	
+	}
 }
 ```
 
-```csharp
+```cs
 using System;
 
 public class Program
@@ -54,7 +54,7 @@ public class Program
 	{
 		string s = null;
 		try
-		{	
+		{
 			//Processa uma string null.
 			ProcessaString(s);
 		}
@@ -63,7 +63,7 @@ public class Program
 			//Neste caso vamos imprimir "Um erro foi detectado" pois o valor passado irá disparará uma exceção.
 			Console.WriteLine("Um erro foi detectado");
 		}
-	}	
+	}
 }
 ```
 

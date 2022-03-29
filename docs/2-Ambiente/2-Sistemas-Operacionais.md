@@ -10,4 +10,4 @@ O primeiro, é amplamente utilizado para desenvolvimento de aplicações Windows
 
 Já o segundo é [open-source](https://github.com/dotnet/core) e multiplataforma (pode ser utilizado para criar aplicações em Linux, Mac e Windows)
 
-Portanto, não se preocupe com o sistema operacional que estiver utilizando. 
+Portanto, não se preocupe com o sistema operacional que estiver utilizando.

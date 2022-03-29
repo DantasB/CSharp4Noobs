@@ -12,7 +12,6 @@ O nome de uma variável é referenciado como um identificador. Em C# existem reg
 
 Além disso, é importante frizar que o nome de variável, tal como outras linguagens de programação é case-sensitive, ou seja, a variável valor é diferente da variável Valor.
 
-
 É importante também falar que no mundo empresarial a gente utiliza alguns padrões de nomenclatura:
 
 - Para variáveis utilizamos o camelCase.
