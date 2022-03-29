@@ -6,9 +6,9 @@ Toda exceção lançada pelo sistema, procura por um bloco catch. Caso não haja
 
 Esta instrução possui a seguinte estrutura:
 
--   Try: Tenta fazer a execução de um programa.
--   Catch: Caso tenha algum erro na função try, ele entra nesse trecho de código.
--   Throw: Caso algum caso seja alcançado, ele dispara uma exceção, que virá a ser tratada pelo Catch.
+- Try: Tenta fazer a execução de um programa.
+- Catch: Caso tenha algum erro na função try, ele entra nesse trecho de código.
+- Throw: Caso algum caso seja alcançado, ele dispara uma exceção, que virá a ser tratada pelo Catch.
 
 ## Exemplos:
 

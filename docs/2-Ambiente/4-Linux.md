@@ -4,12 +4,12 @@ Como conversamos anteriormente, sabemos que é possível programar em C# utiliza
 
 ## Passos
 
--   [Instalem o SDK](https://docs.microsoft.com/pt-br/dotnet/core/install/linux) neste link terá uma série de códigos disponibilizados pela própria microsoft, para nos ajudar a instalar o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) pelo terminal.
-    -   Após instalado, verifique a versão do .Net Core utilizando o seguinte comando em seu terminal: `dotnet --info`. Caso não haja erro na instalação, você verá a versão instalada do .Net Core.
--   Instalem um editor de texto de seu interesse. (No geral os desenvolvedores tem um apresso por esse editor, então daremos algumas dicas de extensões para utilizar).
-    -   Como extensões indicaremos 3: (C#, C# Extensions e NuGet Package Manager\*)
--   Crie seu projeto dentro da pasta que você preferir\*\*
--   Rode seu projeto criado.
+- [Instalem o SDK](https://docs.microsoft.com/pt-br/dotnet/core/install/linux) neste link terá uma série de códigos disponibilizados pela própria microsoft, para nos ajudar a instalar o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) pelo terminal.
+    - Após instalado, verifique a versão do .Net Core utilizando o seguinte comando em seu terminal: `dotnet --info`. Caso não haja erro na instalação, você verá a versão instalada do .Net Core.
+- Instalem um editor de texto de seu interesse. (No geral os desenvolvedores tem um apresso por esse editor, então daremos algumas dicas de extensões para utilizar).
+    - Como extensões indicaremos 3: (C#, C# Extensions e NuGet Package Manager\*)
+- Crie seu projeto dentro da pasta que você preferir\*\*
+- Rode seu projeto criado.
 
 \*: Para este curso básico esta extensão não é necessária. Porém, futuramente pode vir a ser.
 

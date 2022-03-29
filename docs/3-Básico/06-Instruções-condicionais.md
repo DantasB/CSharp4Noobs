@@ -124,9 +124,9 @@ No geral o Switch-Case é utilizado como alternativa ao if-else, muitas vezes po
 
 ### Estrutura geral de um switch-case:
 
--   Switch(valor): A variável valor será responsável por definir qual case será acessado.
--   Case 1: caso a variável valor seja igual a 1, entraremos neste case.
--   Default: caso não haja nenhum case referente é variável valor, este caso será executado.
+- Switch(valor): A variável valor será responsável por definir qual case será acessado.
+- Case 1: caso a variável valor seja igual a 1, entraremos neste case.
+- Default: caso não haja nenhum case referente é variável valor, este caso será executado.
 
 Note também que, ao final de cada case, é necessário haver `return ou break`.
 

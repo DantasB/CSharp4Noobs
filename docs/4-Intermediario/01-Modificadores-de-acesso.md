@@ -4,15 +4,15 @@ São palavras-chave que servem para especificar a acessibilidade de um tipo ou m
 
 No C#, temos quatro tipos de modificadores
 
--   **public**: o acesso ao membro pode ser de qualquer lugar
--   **protected**: somente as classes que derivam dela podem acessar o membro
--   **internal**: só pode ser acessado de dentro do assembly em que está declarado
--   **private**: não pode ser acessado de fora da própria classe
+- **public**: o acesso ao membro pode ser de qualquer lugar
+- **protected**: somente as classes que derivam dela podem acessar o membro
+- **internal**: só pode ser acessado de dentro do assembly em que está declarado
+- **private**: não pode ser acessado de fora da própria classe
 
 É possível também utilizar dois tipos em conjunto, como por exemplo:
 
--   **protected internal**
--   **private protected**
+- **protected internal**
+- **private protected**
 
 A omissão do modificador de acesso na declaração de uma classe deixará implícito que o acesso será do tipo **internal**.
 

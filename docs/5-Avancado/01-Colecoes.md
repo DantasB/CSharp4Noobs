@@ -4,9 +4,9 @@ Classes especializadas para manipulação de dados. São um aprimoramento dos _a
 
 Existem 3 tipos de coleções:
 
--   _Standard_ (Padrão)
--   _Generic_ (Genérica)
--   _Concurrent_ (Concorrente)
+- _Standard_ (Padrão)
+- _Generic_ (Genérica)
+- _Concurrent_ (Concorrente)
 
 ### **_Standard_**
 
@@ -52,13 +52,13 @@ As interfaces não são implementadas por todas as coleções, depende da nature
 
 Essa coleção se encontra somente no namespace `System.Collections`. Sua classe tipada equivalente é a `List<T>`.
 
--   Elementos podem ser adicionados e removidos da coleção a qualquer momento.
--   Não é garantido de ordenação.
--   A capacidade é o número de elementos que a lista pode conter.
--   Os índices são baseados no zero, ou seja, o primeiro elemento tem o índice 0.
--   Os elementos nessa coleção podem ser acessados utilizando um índice inteiro.
--   Permite elementos duplicados.
--   A utilização de arrays multidimensionais não é suportado.
+- Elementos podem ser adicionados e removidos da coleção a qualquer momento.
+- Não é garantido de ordenação.
+- A capacidade é o número de elementos que a lista pode conter.
+- Os índices são baseados no zero, ou seja, o primeiro elemento tem o índice 0.
+- Os elementos nessa coleção podem ser acessados utilizando um índice inteiro.
+- Permite elementos duplicados.
+- A utilização de arrays multidimensionais não é suportado.
 
 É um array dinâmico. Fornece acesso dinâmico ao seus elementos. Um ArrayList automaticamente se expande quando um dado é adicionado. Ao contrário de arrays, podem guardar múltiplos tipos de dados. Os elementos são acessados por um índice inteiro, que são baseados em zero.
 
@@ -66,10 +66,10 @@ A indexação, inserção e remoção dos elementos no final da lista leva um te
 
 ### **Hashtable**
 
--   Chaves devem ser únicas e diferentes de nulas.
--   Permite valores duplicados e nulos.
--   Valores podem ser acessados utilizando a sua chave associada.
--   Cada par de chave-valor é armazenado como um objeto _`DictionaryEntry`._
+- Chaves devem ser únicas e diferentes de nulas.
+- Permite valores duplicados e nulos.
+- Valores podem ser acessados utilizando a sua chave associada.
+- Cada par de chave-valor é armazenado como um objeto _`DictionaryEntry`._
 
 É uma coleção que armazena pares de chave-valor, ou seja, para cada valor adicionado é obrigatório informar uma chave única que irá servir para identificar o valor na lista.
 
@@ -87,40 +87,40 @@ A versão genérica da coleção `Hashtable` é a `Dictionary<TKey,TValue>` que 
 
 ### **Queue (Fila)**
 
--   Permite elementos duplicados.
--   Aceita `null` como um valor válido a ser inserido.
+- Permite elementos duplicados.
+- Aceita `null` como um valor válido a ser inserido.
 
 É uma coleção que representa uma fila, ou seja, o primeiro a entrar é o primeiro a sair. Quando um elemento é adicionado, entra no final da lista. Quando um elemento é removido, será sempre o primeiro da lista. Essa coleção é implementada como uma matriz circular.
 
 As principais operações que podemos executar em uma fila são as seguintes:
 
--   Enqueue: adiciona um elemento no final da fila.
--   Dequeue: remove o primeiro elemento da fila.
--   Peek: retorna o elemento mais antigo da fila, ou seja, o que está na primeira posição. Mas não o remove igual ao comando _Dequeue_.
+- Enqueue: adiciona um elemento no final da fila.
+- Dequeue: remove o primeiro elemento da fila.
+- Peek: retorna o elemento mais antigo da fila, ou seja, o que está na primeira posição. Mas não o remove igual ao comando _Dequeue_.
 
 ### **Stack (Pilha)**
 
--   Permite elementos duplicados.
--   Aceita `null` como um valor válido a ser inserido.
+- Permite elementos duplicados.
+- Aceita `null` como um valor válido a ser inserido.
 
 É uma coleção que representa uma pilha, ou seja, o ultimo a entrar é o primeiro a sair. Quando um elemento é adicionado, entra no final da lista. Quando um elemento é removido, será também o último da fila.
 
 As principais operações que podemos executar em uma fila são as seguintes:
 
--   _Push_: adiciona um elemento no final da fila.
--   _Pop_: remove o último elemento da fila.
--   _Peek_: retorna o elemento mais novo da fila, ou seja, o que está na última posição. Mas não o remove igual ao comando _Pop_.
+- _Push_: adiciona um elemento no final da fila.
+- _Pop_: remove o último elemento da fila.
+- _Peek_: retorna o elemento mais novo da fila, ou seja, o que está na última posição. Mas não o remove igual ao comando _Pop_.
 
 ### **List**
 
 É uma coleção que pertence ao _namespace `System.Collections.Generic`._ Equivale à classe `ArrayList`, mas fortemente tipada.
 
--   Os elementos são acessados por índices, que começam em zero.
--   Só pode conter elementos do tipo especificado em sua inicialização.
--   São mais rápidas do que o `ArrayList` e menos suscetíveis a erros.
--   Aceita `null` como um valor válido a ser inserido para tipos de referência.
--   Aceita valores duplicados.
--   Aumenta a capacidade dinamicamente.
+- Os elementos são acessados por índices, que começam em zero.
+- Só pode conter elementos do tipo especificado em sua inicialização.
+- São mais rápidas do que o `ArrayList` e menos suscetíveis a erros.
+- Aceita `null` como um valor válido a ser inserido para tipos de referência.
+- Aceita valores duplicados.
+- Aumenta a capacidade dinamicamente.
 
 Fornece múltiplos métodos de ordenação, procura e outros para a manipulação de seus elementos, o que facilita bastante seu uso em cenários diversos.
 

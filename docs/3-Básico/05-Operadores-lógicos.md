@@ -16,8 +16,8 @@ Os operadores lógicos são utilizados quando é necessário usar duas ou mais c
 
 A diferença das condições condicionais para as bit a bit são as seguites:
 
--   Condicional: Só testa o segundo lado se o primeiro lado for verdadeiro (no caso do and) ou falso (no caso do or).
--   Bit a bit: Testa ambos os lados todas as vezes.
+- Condicional: Só testa o segundo lado se o primeiro lado for verdadeiro (no caso do and) ou falso (no caso do or).
+- Bit a bit: Testa ambos os lados todas as vezes.
 
 | Operadores de Comparação | Significado           |
 | ------------------------ | --------------------- |

@@ -4,12 +4,12 @@ Para este curso, utilizaremos o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desen
 
 ## Instalando o .NET Core
 
--   Entre [nesse](https://dotnet.microsoft.com/download/dotnet-core/3.1) link e baixe o instalador do [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core para o Windows de acordo com a sua arquitetura.
+- Entre [nesse](https://dotnet.microsoft.com/download/dotnet-core/3.1) link e baixe o instalador do [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core para o Windows de acordo com a sua arquitetura.
     <img src="https://user-images.githubusercontent.com/37851168/97745889-88b78d00-1ab7-11eb-9719-443536348e5d.png" width="500" heigth="300"/>
 
--   Para instalar, basta clicar no instalador baixado, e esperar a instalação.
+- Para instalar, basta clicar no instalador baixado, e esperar a instalação.
 
--   Para rodar nossos códigos desenvolvidos nesse curso, recomendamos a utilização do [Visual Studio Code (VSCode)](https://code.visualstudio.com/), por ser leve e simples de utilizar.
+- Para rodar nossos códigos desenvolvidos nesse curso, recomendamos a utilização do [Visual Studio Code (VSCode)](https://code.visualstudio.com/), por ser leve e simples de utilizar.
 
 ## Criando o projeto
 

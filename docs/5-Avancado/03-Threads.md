@@ -8,18 +8,18 @@ Um programa é capaz de ter vários threads abertos ao mesmo tempo e os encerra 
 
 Exemplo Para instanciar um Thread:
 
--   _var thread1 = new Thread(NovoMétodoThread);_
+- _var thread1 = new Thread(NovoMétodoThread);_
     _NovoMétodoThread_ é um método que vai ser rodado em outro thread em primeiro ou segundo plano
 
 ### Chamada do Thread
 
 Para rodar o Thread, apenas digite o nome do objeto instanciado adicionando .Start os parênteses na frente.
 
--   _thread1.Start();_
+- _thread1.Start();_
 
 ### Exemplos de código
 
--   _Thread trabalhando em algo em segundo plano_
+- _Thread trabalhando em algo em segundo plano_
 
 ```cs
 using System;

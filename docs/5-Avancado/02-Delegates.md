@@ -4,24 +4,24 @@ Um delegate é uma referência a um método com a mesma assinatura, ou seja, pod
 
 Declaração de um delegate:
 
--   _public delegate void MyDelegate();_
+- _public delegate void MyDelegate();_
     Onde _void_ é o tipo de retorno e _MyDelegate_ é o nome do delegate.
 
 ### Instanciação de um delegate
 
 Para instanciar um delegate, o método em que o delegate irá referenciar, precisa ser passado como parâmetro, exemplo:
 
--   _MyDelegate delegate1 = new MyDelegate(método);_
+- _MyDelegate delegate1 = new MyDelegate(método);_
 
 ### Chamada do delegate
 
 Para chamar o delegate, apenas digite o nome do objeto instanciado adicionando os parênteses na frente.
 
--   _delegate1();_
+- _delegate1();_
 
 ## Exemplos
 
--   _Delegate sem retorno e sem parâmetros_
+- _Delegate sem retorno e sem parâmetros_
 
 ```csharp
 using System;
@@ -50,7 +50,7 @@ namespace testes
 }
 ```
 
--   _Delegate sem retorno e com parâmetros_
+- _Delegate sem retorno e com parâmetros_
 
 ```csharp
 using System;
@@ -79,7 +79,7 @@ namespace testes
 }
 ```
 
--   _Delegate com retorno e com parâmetros_
+- _Delegate com retorno e com parâmetros_
 
 ```
 using System;
