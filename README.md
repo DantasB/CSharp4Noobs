@@ -54,6 +54,7 @@ são **extremamente apreciadas**
     <td align="center"><a href="https://github.com/eduardosbcabral"><img style="border-radius: 50%;" src="https://avatars2.githubusercontent.com/u/29133996?s=460&u=5b6448ac95459d30e91293f9893d9fafe54fb523&v=4" width="100px;" alt=""/><br /><sub><b>Eduardo Cabral</b></sub></a><br />
       <td align="center"><a href="https://github.com/igortauh"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/70609660?v=4" width="100px;" alt=""/><br /><sub><b>Igor Tauhan</b></sub></a><br />
       <td align="center"><a href="https://github.com/MortoMS"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/35253155?v=4" width="100px;" alt=""/><br /><sub><b>Gabriel Senna</b></sub></a><br />
+<td align="center"><a href="https://github.com/Guifgr"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/39571461?s=400&u=5c6efcf3d8e18658296103cd2e58698ce776871e&v=4" width="100px;" alt=""/><br /><sub><b>Guilherme Rocha</b></sub></a><br />
   </tr>
 </table>
 

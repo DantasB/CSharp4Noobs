@@ -32,7 +32,7 @@ public class ExamploThread
         for (int i = 0; i < 10; i++)
         {
             Console.WriteLine("Thread em segundo plano: {0}", i);
-            Thread.Sleep(0);
+            Thread.Sleep(100);
         }
     }
 
@@ -48,11 +48,12 @@ public class ExamploThread
 
         for (var i = 0; i < 4; i++)
         {
-            Console.WriteLine("Thread Principal: Fazendo Algo.");
+            
+            Thread.Sleep(1000);
             //Se manter em 0 o tempo para a thread principal rodar, vai ver que
             //Ambos vão estar trabalhando ao mesmo tempo e em muitas vezes os textos se misturam
             //Tanto os da principal e a secundária
-            Thread.Sleep(1);
+            Console.WriteLine("Thread Principal: Fazendo Algo.");
         }
 
         Console.WriteLine(
@@ -62,4 +63,19 @@ public class ExamploThread
         Console.ReadLine();
     }
 }
+```
+Podemos entender com o seguinte gráfico:
+```mermaid
+gantt
+        dateFormat HH:mm:ss
+        axisFormat %H:%M:%S
+        Inicio execução : milestone, 00:00:00, 00:00:00
+        section Main
+        Processo : 00:00:00, 00:01:02
+        FazendoAlgo : 00:00:31, 00:01:01
+        Aguardando chamar threads :a1, 00:00:00, 00:00:01
+        Aguardando retorno dos threads : 00:01:01, 00:01:02
+        section Threads
+        ThreadSegundoPlano :after a1, 00:00:30
+        Fim execução : milestone, 00:01:02, 00:01:02
 ```
