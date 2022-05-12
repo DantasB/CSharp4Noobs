@@ -39,7 +39,7 @@ Dentro do C# temos algumas maneiras de trabalhar com texto, são elas:
 
 Certo, e quando devo usar cada uma delas ?
 
-- **Join** é usado quando normalmente você quer adicionar vários texto separado por um caracter. 
+- **Join** é usado quando normalmente você quer adicionar vários textos separados por um caracter. 
 
 ```csharp
  var mensagem = string.Empty;
@@ -81,23 +81,23 @@ Console.WriteLine(mensagem);
 ```
 **E por último, a cereja do bolo**
 
-- **StringBuilder** é usado para concatenar strings e essa classe vem com algo diferenciado para concatenação, mas primeiro vamos entender a diferença entre usar o StringBuilder e uma concatenação por exemplo.
+- **StringBuilder** é usado para concatenar strings e essa classe vem com algo diferenciado para concatenação, mas primeiro vamos entender a diferença entre usar o StringBuilder e uma concatenação por exemplo:
 
-Quando fazemos 
+Quando fazemos o código abaixo
 
 ```csharp
 var texto = texto + "qualquer mensagem";
 ```
-estamos fazendo algo perigoso dependendo na onde fazemos e se você pensou que o C# substituiu o valor anterior da varíavel pelo texto que adicionamos você acabou esquecendo um conceito importante chamado IMUTABILIDADE. Strings são imutáveis, ou seja, uma vez criada não pode ser alteradas, elas só podem ser alteradas criando um novo objeto na memória e descartando o valor anterior. Então imagina o seguinte cenário onde estamos dentro de um **FOR** percorrendo 100 vezes e nessas 100 vezes estamos fazendo o código acima, quanta memória não alocamos para fazer o processo não é mesmo? 
+estamos realizando algo perigoso dependendo na onde fazemos e se você pensou que o C# substituiu o valor anterior da varíavel pelo texto que adicionamos você acabou esquecendo um conceito importante chamado IMUTABILIDADE. Strings são imutáveis, ou seja, uma vez criada não pode ser alteradas, elas só podem ser alteradas criando um novo objeto na memória e descartando o valor anterior. Então imagina o seguinte cenário onde estamos dentro de um **FOR** percorrendo 100 vezes e nessas 100 vezes estamos fazendo o código acima, quanta memória não alocamos para fazer o processo não é mesmo? 
 
 Peço que olhe com carinho os Method **ConcatenaçãoManual**, **StringBuilder**, **ConcatenacaoManualFor1000Elementos** e **StringBuilderFor1000Elementos**
 
-Perceba que ConcatenaçãoManual e StringBuilder não há uma diferença grande, o teste realizado foi feito com poucas strings, mas agora repare em ConcatenacaoManualFor1000Elementos e StringBuilderFor1000Elementos que foi utilizado uma repetição de 1000x adiciona texto. Olhe a diferença colossal de memória alocada com a concatenaçãoManual em um **FOR** e usando o StringBuilder.
+Perceba que ConcatenaçãoManual e StringBuilder não há uma diferença grande, o teste realizado foi feito com poucas strings, mas agora repare em ConcatenacaoManualFor1000Elementos e StringBuilderFor1000Elementos que foi utilizado uma repetição de 1000x adicionando texto. Olhe a diferença colossal de memória alocada com a concatenaçãoManual em um **FOR** e usando o StringBuilder.
 
 Mas ai pode surgir aquela pergunta, o que o StringBuilder tem de diferente da concatenação?
-R:. Ele não cria um novo objeto a cada atribuição e sim expande dinamicamente a memória para caber mais strings, ou seja, não fica criando vários objetos que serão descartados rapidamente e sem contar que isso custa também para o garbage collector matar esse objetos.
+R:. Ele não cria um novo objeto a cada atribuição e sim expande dinamicamente a memória para caber mais strings, ou seja, não fica criando vários objetos que serão descartados rapidamente e sem contar que isso custa também para o Garbage Collection matar esses objetos.
 
 Quando devo usar o StringBuilder ?
-R:. Utilize o StringBuilder quando tiver que trabalhar com muita string, como por exemplo geração de arquivo de texto ou algo que envolva muito volume. Se for trabalhar com pouco texto utilize uma das funções citadas anteriormente, **MAS LEMBRE-SE, UTILIZE STRINGBUILDER COM GRANDES VOLUMES DE TEXTO**
+R:. Utilize o StringBuilder quando tiver que trabalhar com muito texto, como por exemplo geração de arquivo ou algo que envolva muito volume. Se for trabalhar com pouco texto utilize uma das funções citadas anteriormente, **MAS LEMBRE-SE, UTILIZE STRINGBUILDER COM GRANDES VOLUMES DE TEXTO**
 
 <img loading="lazy" src="https://s3.us-west-2.amazonaws.com/secure.notion-static.com/989aad6e-a2e0-4255-9d90-1416d01ce9f0/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=AKIAT73L2G45EIPT3X45%2F20220512%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20220512T012415Z&X-Amz-Expires=86400&X-Amz-Signature=e093c4030bfd8a9592788e3358ed43f1bb209c50e5d9ff2989f754fed032189d&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22&x-id=GetObject">
