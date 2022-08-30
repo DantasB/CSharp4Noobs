@@ -106,3 +106,18 @@ public class Program
 	}
 }
 ```
+
+A partir da versão 10 da linguagem C#, é possível também realizar a declaração de namespaces com escopo de arquivo. Ou seja,
+podemos utilizar dentro de um arquivo .cs a declaração using dispensando a utilização das chaves `{ }` para a delimitação do escopo do
+namespace. Desta forma, estamos indicando que todas as declarações logo abaixo da definição do namespace, pertencem a este namespace:
+
+```cs
+namespace Projeto;
+
+public void Main()
+{
+    Console.WriteLine("Hello World!");
+}
+```
+
+Essa nova sintaxe economiza espaço horizontal e vertical para as declarações de namespaces e torna o arquivo de código mais legível.
