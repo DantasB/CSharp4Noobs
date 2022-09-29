@@ -4,7 +4,7 @@ Podemos pensar em uma relação de "Pai" e "Filho", onde o filho HERDA todas as 
 
 A seguir, temos uma classe  com nome *Pai* que contém as propriedades nome e idade, além do método QuemEuSou.
 
-```
+```cs
 using  System;
 
 namespace  testes
@@ -34,7 +34,7 @@ namespace  testes
 
 Agora, vejamos a classe com nome *Filho*:
 
-```
+```cs
 using  System;
 
 namespace  testes
@@ -62,7 +62,7 @@ Nesse exemplo em específico, eu fiz com que a classe Filho tivesse uma propried
 
 Vejamos a instanciação:
 
-```
+```cs
 using  System;
 
 namespace  testes
@@ -86,7 +86,7 @@ No código acima, nós instanciamos um objeto da classe *Filho* passando os par�
 
 No código abaixo, utilizaremos como exemplo uma classe pai chamada "Conta" e uma classe Filho chamada "ContaCorrente". Como vimos, a classe filho herda todas as propriedades e métodos da classe pai.
 
-```
+```cs
 using  System;
 
 namespace  testes
