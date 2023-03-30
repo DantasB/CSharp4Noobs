@@ -1,11 +1,11 @@
 # 2.3 Sistema Windows
 
-Para este curso, utilizaremos o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core no decorrer dos tópicos, e por ser multiplataforma, você pode rodar seus projetos desenvolvidos em outros sistemas, no Windows também!
+Para este curso, utilizaremos o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net no decorrer dos tópicos, e por ser multiplataforma, você pode rodar seus projetos desenvolvidos em outros sistemas, no Windows também!
 
-## Instalando o .NET Core
+## Instalando o .NET
 
-- Entre [nesse](https://dotnet.microsoft.com/download/dotnet-core/3.1) link e baixe o instalador do [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net Core para o Windows de acordo com a sua arquitetura.
-    <img src="https://user-images.githubusercontent.com/37851168/97745889-88b78d00-1ab7-11eb-9719-443536348e5d.png" width="500" heigth="300"/>
+- Entre [nesse](https://dotnet.microsoft.com/download/dotnet-core/6.0) link e baixe o instalador do [SDK](https://pt.wikipedia.org/wiki/Kit_de_desenvolvimento_de_software) do .Net para o Windows de acordo com a sua arquitetura.
+    <img src="Img/WindowsSDK.jpg" width="500" heigth="300"/>
 
 - Para instalar, basta clicar no instalador baixado, e esperar a instalação.
 
@@ -15,7 +15,7 @@ Para este curso, utilizaremos o [SDK](https://pt.wikipedia.org/wiki/Kit_de_desen
 
 Entre na pasta que você guarda seus projetos e use: `dotnet new console -n HelloWorld`
 
-Irá criar uma pasta HelloWorld com um arquivo `.csproj` que é a configuração do nosso projeto, contendo a versão e em qual framework estamos utilizando nesse projeto, nesse caso, é o .Net Core 3.1
+Irá criar uma pasta HelloWorld com um arquivo `.csproj` que é a configuração do nosso projeto, contendo a versão e em qual framework estamos utilizando nesse projeto, nesse caso, é o .Net 6.0
 
 Também terá outro arquivo `.cs` que é um exemplo de código que mostra `Hello World!` na tela!
 
@@ -23,7 +23,7 @@ Também terá outro arquivo `.cs` que é um exemplo de código que mostra `Hello
 
 Depois de tudo instalado e configurado use o comando no terminal do VSCode `dotnet run` para rodar o projeto, um `Hello World!` deve aparecer no console.
 
-<img src="https://user-images.githubusercontent.com/37851168/97752519-20ba7400-1ac2-11eb-932a-8f3488843e3c.png" width="500" heigth="300"/>
+<img src="Img/HelloWorld.jpg" width="500" heigth="300"/>
 
 ## Alternativas de Editores / [IDEs](https://pt.wikipedia.org/wiki/Ambiente_de_desenvolvimento_integrado)
 
@@ -38,21 +38,26 @@ Essa ferramenta para o Windows é simplesmente incrível, ela exige um hardware 
 > Note: O Visual Studio só é disponibilizado nos sistemas operacionais Windows e Mac OS.
 
 A instalação dela é bem simples, entre [nesse](https://visualstudio.microsoft.com/pt-br/) link e baixe o instalador do Visual Studio Community (Gratuito).
-<img src="https://user-images.githubusercontent.com/37851168/97753103-3c724a00-1ac3-11eb-9ccf-796015026aab.png" width="500" heigth="300"/>
 
-Após baixar, selecione a ferramenta de desenvolvimento usando o .Net Core
-<img src="https://user-images.githubusercontent.com/37851168/97753438-c4f0ea80-1ac3-11eb-9053-1f5015101028.png" width="500" heigth="300"/>
+<img src="Img/VisualStudio2022.jpg" width="500" heigth="300"/>
+
+Após baixar, selecione a ferramenta de desenvolvimento usando o ASP.NET
+
+<img src="Img/Install.jpg" width="500" heigth="300"/>
 
 Em seguida, execute o Visual Studio e crie um novo projeto do tipo Console App.
-<img src="https://user-images.githubusercontent.com/37851168/97753807-61b38800-1ac4-11eb-91f3-3ee2763463b2.png" width="500" heigth="300"/>
 
-<img src="https://user-images.githubusercontent.com/37851168/97753872-81e34700-1ac4-11eb-8e06-6359afdd15ba.png" width="500" heigth="300"/>
+<img src="Img/CreateNewProject.jpg" width="500" heigth="300"/>
 
-<img src="https://user-images.githubusercontent.com/37851168/97753893-8f98cc80-1ac4-11eb-93ee-8bede3401ddc.png" width="500" heigth="300"/>
+<img src="Img/ConsoleApp.jpg" width="500" heigth="300"/>
 
-Use o `CRTL + F5` para executar o programa, e veja a magia!
+<img src="Img/ProjectName.jpg" width="500" heigth="300"/>
 
-<img src="https://user-images.githubusercontent.com/37851168/97753942-a6d7ba00-1ac4-11eb-92c0-52c600e7dc7f.png" width="500" heigth="300"/>
+<img src="Img/Dotnet6.jpg" width="500" heigth="300"/>
+
+Use o `CRTL + F5` ou clique na seta verde HeloWorld para executar o programa, e veja a magia!
+
+<img src="Img/Executar.jpg" width="500" heigth="300"/>
 
 #### Rider
 
